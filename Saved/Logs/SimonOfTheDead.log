@@ -1,4 +1,4 @@
-﻿Log file open, 11/16/18 12:09:30
+﻿Log file open, 11/16/18 13:46:12
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SimonOfTheDead
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.026647
+LogStats: Stats thread started at 0.283267
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -86,7 +86,7 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.122s to configure plugins.
+LogStreaming: Display: Took  0.119s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -140,438 +140,542 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.012s to delete old logs.
+LogStreaming: Display: Took  0.007s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.16-01.09.31:186][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.16-01.09.31:186][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.16-01.09.31:204][  0]LogHAL: Display: Platform has ~ 32 GB [34270777344 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.16-01.09.31:205][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.16-01.09.31:205][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.16-01.09.31:210][  0]LogInit: Computer: MEL-108-2604
-[2018.11.16-01.09.31:210][  0]LogInit: User: hpennycuick
-[2018.11.16-01.09.31:210][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.16-01.09.31:210][  0]LogInit: High frequency timer resolution =3.328123 MHz
-[2018.11.16-01.09.31:211][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.11.16-01.09.31:211][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.16-01.09.31:211][  0]LogMemory: Process Physical Memory: 97.72 MB used, 97.72 MB peak
-[2018.11.16-01.09.31:211][  0]LogMemory: Process Virtual Memory: 90.76 MB used, 90.76 MB peak
-[2018.11.16-01.09.31:211][  0]LogMemory: Physical Memory: 7390.60 MB used,  25292.56 MB free, 32683.16 MB total
-[2018.11.16-01.09.31:211][  0]LogMemory: Virtual Memory: 4634.34 MB used,  25292.56 MB free, 134217728.00 MB total
-[2018.11.16-01.09.31:458][  0]LogInit: Using OS detected language (en-US).
-[2018.11.16-01.09.31:458][  0]LogInit: Using OS detected locale (en-AU).
-[2018.11.16-01.09.31:462][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.16-01.09.31:870][  0]LogStreaming: Display: Took  0.411s to InitEngineTextLocalization.
-[2018.11.16-01.09.31:870][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.16-01.09.31:970][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.16-01.09.31:970][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.16-01.09.33:816][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.16-01.09.33:871][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
-[2018.11.16-01.09.33:871][  0]LogD3D11RHI:       4053/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.11.16-01.09.33:873][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.16-01.09.33:873][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.16-01.09.33:873][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.16-01.09.33:879][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.16-01.09.33:879][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.16-01.09.33:880][  0]LogWindows: EnumDisplayDevices:
-[2018.11.16-01.09.33:880][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
-[2018.11.16-01.09.33:880][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2018.11.16-01.09.33:880][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2018.11.16-01.09.33:880][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2018.11.16-01.09.33:881][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.11.16-01.09.33:881][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
-[2018.11.16-01.09.33:881][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
-[2018.11.16-01.09.33:881][  0]LogD3D11RHI:      Driver Date: 7-30-2018
-[2018.11.16-01.09.33:881][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
-[2018.11.16-01.09.33:920][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.16-01.09.33:944][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.16-01.09.33:989][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../Users/hpennycuick/Documents/SimonOfTheDead/Intermediate/Shaders/WorkingDirectory/13616/).
-[2018.11.16-01.09.33:989][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hpennycuick/AppData/Local/Temp/UnrealShaderWorkingDir/A6190B164E1A2EC0EDE31682B0AE384A/'.
-[2018.11.16-01.09.34:702][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.16-01.09.34:716][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.16-01.09.34:730][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.16-01.09.34:745][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.16-01.09.34:764][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.16-01.09.34:780][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.16-01.09.34:794][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.16-01.09.34:809][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.16-01.09.34:818][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.16-01.09.34:912][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.16-01.09.34:988][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.16-01.09.34:988][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.16-01.09.35:012][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.16-01.09.35:012][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.16-01.09.35:027][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.16-01.09.35:041][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.16-01.09.35:055][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.16-01.09.35:075][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.16-01.09.35:085][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.16-01.09.35:085][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.16-01.09.35:212][  0]LogXGEController: Cleaning working directory: C:/Users/hpennycuick/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.11.16-01.09.35:212][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.16-01.09.35:212][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.16-01.09.35:212][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.16-01.09.36:926][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.16-01.09.37:357][  0]LogDerivedDataCache: Loaded boot cache 0.43s 84MB C:/Users/hpennycuick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.16-01.09.37:357][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hpennycuick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.16-01.09.37:357][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/hpennycuick/Documents/SimonOfTheDead/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.16-01.09.37:357][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.16-01.09.37:357][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/hpennycuick/Documents/SimonOfTheDead/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.16-01.09.37:357][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.16-01.09.37:404][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.16-01.09.37:418][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hpennycuick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.16-01.09.37:418][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.16-01.09.37:418][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.16-01.09.37:440][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.16-01.09.37:449][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.16-01.09.37:491][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.16-01.09.37:935][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
-[2018.11.16-01.09.38:338][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.16-01.09.38:652][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.16-01.09.38:670][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.16-01.09.38:670][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.16-01.09.38:671][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.16-01.09.38:671][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.16-01.09.38:725][  0]LogNetVersion: SimonOfTheDead 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 577601420)
-[2018.11.16-01.09.39:923][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.121994 seconds
-[2018.11.16-01.09.39:929][  0]LogUObjectArray: 37353 objects as part of root set at end of initial load.
-[2018.11.16-01.09.39:929][  0]LogUObjectAllocator: 6485040 out of 0 bytes used by permanent object pool.
-[2018.11.16-01.09.39:929][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.16-01.09.43:607][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.16-01.09.43:624][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.16-01.09.43:888][  0]SourceControl: Source control is disabled
-[2018.11.16-01.09.43:889][  0]SourceControl: Source control is disabled
-[2018.11.16-01.09.43:901][  0]SourceControl: Source control is disabled
-[2018.11.16-01.09.43:905][  0]SourceControl: Source control is disabled
-[2018.11.16-01.09.44:270][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.16-01.09.44:621][  0]LogEngine: Initializing Engine...
-[2018.11.16-01.09.44:626][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.16-01.09.44:626][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.16-01.09.44:626][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.16-01.09.44:626][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.16-01.09.45:049][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.16-01.09.45:092][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.16-01.09.45:147][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.16-01.09.45:170][  0]LogInit: FAudioDevice initialized.
-[2018.11.16-01.09.45:170][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.16-01.09.45:254][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/hpennycuick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.16-01.09.45:260][  0]LogInit: Texture streaming: Enabled
-[2018.11.16-01.09.45:290][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.16-01.09.45:313][  0]LogInit: Transaction tracking system initialized
-[2018.11.16-01.09.45:367][  0]BlueprintLog: New page: Editor Load
-[2018.11.16-01.09.45:628][  0]LocalizationService: Localization service is disabled
-[2018.11.16-01.09.46:377][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.16-01.09.46:377][  0]LogCook: Display: Mobile HDR setting 0
-[2018.11.16-01.09.46:378][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.16-01.09.46:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.16-01.09.46:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.16-01.09.46:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.16-01.09.46:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.16-01.09.46:714][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hpennycuick/Documents/SimonOfTheDead/Content/' took 0.02s
-[2018.11.16-01.09.46:714][  0]SourceControl: Source control is disabled
-[2018.11.16-01.09.46:715][  0]Cmd: MAP LOAD FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.16-01.09.46:716][  0]LightingResults: New page: Lighting Build
-[2018.11.16-01.09.46:724][  0]MapCheck: New page: Map Check
-[2018.11.16-01.09.46:724][  0]LightingResults: New page: Lighting Build
-[2018.11.16-01.09.46:986][  0]LogAIModule: Creating AISystem for world TestMap_01
-[2018.11.16-01.09.47:010][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.16-01.09.47:036][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.16-01.09.47:102][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.526ms to complete.
-[2018.11.16-01.09.47:102][  0]LogFileHelpers: Loading map 'TestMap_01' took 0.388
-[2018.11.16-01.09.47:355][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.16-01.09.47:368][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.16-01.09.47:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.16-01.09.47:386][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.16-01.09.47:413][  0]LogCollectionManager: Loaded 0 collections in 0.002253 seconds
-[2018.11.16-01.09.47:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hpennycuick/Documents/SimonOfTheDead/Saved/Collections/' took 0.01s
-[2018.11.16-01.09.47:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hpennycuick/Documents/SimonOfTheDead/Content/Developers/hpennycuick/Collections/' took 0.01s
-[2018.11.16-01.09.47:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hpennycuick/Documents/SimonOfTheDead/Content/Collections/' took 0.01s
-[2018.11.16-01.09.47:482][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.11.16-01.09.47:510][  0]LogContentBrowser: Native class hierarchy populated in 0.0255 seconds. Added 2544 classes and 570 folders.
-[2018.11.16-01.09.47:540][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.11.16-01.09.47:978][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.16-01.09.47:991][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.11.16-01.09.48:140][  0]LogSlate: Took 0.006009 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.16-01.09.48:152][  0]LogSlate: Took 0.009107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.16-01.09.48:167][  0]LogSlate: Took 0.007860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.16-01.09.48:314][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.11.16-01.09.48:440][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.11.16-01.09.48:440][  0]LogLoad: (Engine Initialization) Total time: 22.06 seconds
-[2018.11.16-01.09.48:440][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.16-01.09.48:480][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.16-01.09.48:536][  0]LogSlate: Took 0.011537 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.16-01.09.48:553][  1]LogAssetRegistry: Asset discovery search completed in 10.6407 seconds
-[2018.11.16-01.09.48:555][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.11.16-01.09.48:555][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
-[2018.11.16-01.09.49:890][  5]LogSlate: Took 0.000480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.16-01.10.04:956][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.16-01.10.05:047][333]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.10.28:772][678]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Logic/BP_GameLogic.BP_GameLogic
-[2018.11.16-01.10.29:401][678]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2018.11.16-01.10.30:215][678]LogSlate: Took 0.005063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.16-01.10.30:385][679]LogSlate: Took 0.004406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.16-01.10.47:929][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.10.47:981][565]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicC31EDF1644B86104B1F9969BB83A42D1.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.11.14:493][636]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.11.14:988][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.11.15:033][670]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic82A8D4744C86D76755E638B984AE3FD9.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.11.15:892][768]LogSlate: Window 'BP_GameLogic' being destroyed
-[2018.11.16-01.11.17:376][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.11.17:436][944]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01C6953A3B41339B523C8E66A7185F7F19.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.11.17:475][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
-[2018.11.16-01.11.17:503][944]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01_BuiltData5132BB574F673013E8EA949FE2B85010.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
-[2018.11.16-01.11.47:239][435]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.11.47:729][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.11.47:773][472]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic2EB91BE448671B8DC1C30DB757C43DF3.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.11.50:920][846]LogEditorViewport: Clicking on Actor (LMB): BP_GameLogic_C (BP_GameLogic)
-[2018.11.16-01.11.55:590][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.16-01.11.55:689][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.11.55:743][412]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01BB9466BB4E34278569197B87D623C4AC.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.11.55:781][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
-[2018.11.16-01.11.55:801][412]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01_BuiltData53B5BBE94078BA7D110105A5AAB373FC.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
-[2018.11.16-01.12.56:376][579]LogEditorTransaction: Undo Move Node
-[2018.11.16-01.12.56:758][619]LogEditorTransaction: Undo Create Pin Link
-[2018.11.16-01.12.57:183][663]LogEditorTransaction: Undo Move Node
-[2018.11.16-01.12.57:601][704]LogEditorTransaction: Undo Move Node
-[2018.11.16-01.12.58:083][757]LogEditorTransaction: Undo Delete current selection
-[2018.11.16-01.12.58:495][801]LogEditorTransaction: Undo Create Pin Link
-[2018.11.16-01.12.59:795][950]LogEditorTransaction: Undo Create Pin Link
-[2018.11.16-01.13.11:472][322]LogSlate: Took 0.004550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.11.16-01.13.58:114][856]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.13.58:822][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.13.58:870][915]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic92197AC34E3D084B0E19A88C8D29786C.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.14.03:641][485]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.14.04:104][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.14.04:152][517]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicE21A86D844D735642895988FB8BC45CE.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.14.56:791][771]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.14.57:245][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.14.57:296][801]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic0D1775CD45105301B71E9EA23806BBEE.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.15.59:434][917]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.16.05:032][559]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Enemies/BP_EnemyBase.BP_EnemyBase
-[2018.11.16-01.16.29:350][417]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.16.29:835][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.16.29:871][455]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBaseFD07203644016C2BE659308E31C4DB4C.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.16.39:616][616]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.16.39:623][616]LogClass: Warning: Type mismatch in MySequence of BP_EnemyBase_C - Previous (ByteProperty) Current(ArrayProperty) for package:  FObjectReader
-[2018.11.16-01.16.39:623][616]LogClass: Warning: Type mismatch in MySequence of BP_EnemyBoss_C - Previous (ByteProperty) Current(ArrayProperty) for package:  FObjectReader
-[2018.11.16-01.16.40:135][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.16.40:171][658]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBase094DC82B4D47FD016D4C94AF56CCD778.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.19.00:315][320]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.19.00:826][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.19.00:861][361]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBaseAC268F124CE0745BC75F9ABD9D7BBD8B.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.19.07:070][104]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.19.07:550][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.19.07:584][142]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBaseF9A6594D4BF997015B1BA5BDD94EEFC5.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.19.08:248][216]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
-[2018.11.16-01.19.20:854][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.19.20:886][723]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBaseCA1B8886445669A29389DB87056FE1B7.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.19.28:925][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.19.28:967][683]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBase5F08EA5D41A38A04D3CA9185803F969D.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.21.25:380][505]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons
-[2018.11.16-01.21.51:566][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Button_A4_Sprite" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A4_Sprite.uasset" SILENT=true
-[2018.11.16-01.21.51:580][489]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/Button_A4_Sprite270D41AC4409824D5E0105823C8E4961.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A4_Sprite.uasset'
-[2018.11.16-01.21.51:595][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Button_A1_Sprite" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A1_Sprite.uasset" SILENT=true
-[2018.11.16-01.21.51:624][489]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/Button_A1_Sprite717A5A0245AD846794C1B5A42DDADD77.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A1_Sprite.uasset'
-[2018.11.16-01.21.51:641][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Button_A2" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A2.uasset" SILENT=true
-[2018.11.16-01.21.51:671][489]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/Button_A2D5289B5C4F8FD2134E30EC9BB91D862F.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A2.uasset'
-[2018.11.16-01.21.51:685][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Button_A2_Sprite" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A2_Sprite.uasset" SILENT=true
-[2018.11.16-01.21.51:699][489]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/Button_A2_SpriteB6C344A04F0D12815D76DAA2C5D5DC61.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A2_Sprite.uasset'
-[2018.11.16-01.21.51:714][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Button_A3" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A3.uasset" SILENT=true
-[2018.11.16-01.21.51:743][489]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/Button_A3FEF3ADD0419B0939C4C108A31F2BC639.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A3.uasset'
-[2018.11.16-01.21.51:757][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Button_A3_Sprite" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A3_Sprite.uasset" SILENT=true
-[2018.11.16-01.21.51:771][489]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/Button_A3_Sprite6122C15C4A917F7BA5EC79ACE017537F.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A3_Sprite.uasset'
-[2018.11.16-01.21.51:789][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Button_A4" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A4.uasset" SILENT=true
-[2018.11.16-01.21.51:816][489]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/Button_A44529D6B4477B7EB2A9ED738B76D42B68.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Textures/Button_A4.uasset'
-[2018.11.16-01.22.25:758][528]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.22.26:207][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.22.26:254][559]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBase1782132F4AAE4ADB2A808E91683629AF.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.22.42:258][457]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.22.42:760][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.22.42:799][496]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBase50BC60F244E8190CA53C04B1514A55C4.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.22.44:701][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.22.44:756][715]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic847381974CEE6BCF4D5730B9E4093B98.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.24.01:401][820]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.24.02:240][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.24.02:292][894]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicA9256D9F43DF87EE50761E89D389AB3D.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.25.15:550][591]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.25.16:038][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.25.16:093][623]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicC67A3A75431F88B9C0DBF2995A6EDDAF.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.25.18:718][932]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.25.20:190][932]LogSlate: Window 'Save Content' being destroyed
-[2018.11.16-01.25.20:210][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBoss" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBoss.uasset" SILENT=true
-[2018.11.16-01.25.20:239][932]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBossFD21938545199728E29496820CA3A9C1.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBoss.uasset'
-[2018.11.16-01.25.20:324][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.25.20:385][932]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_0163D9B0234313354D6C5FD9B14C161D14.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.25.20:432][932]LogFileHelpers: Saving map 'TestMap_01' took 0.182
-[2018.11.16-01.25.51:579][380]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.25.52:091][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.25.52:146][414]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicBE46BEDC4EB14D858DD4A7B8D8BFF476.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.25.54:596][701]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.25.55:895][701]LogSlate: Window 'Save Content' being destroyed
-[2018.11.16-01.25.55:989][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.25.56:048][701]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01B5912EE24F8CDBCA6905E6A1244A1A4F.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.25.56:084][701]LogFileHelpers: Saving map 'TestMap_01' took 0.173
-[2018.11.16-01.26.38:403][308]LogEditorTransaction: Undo Add Node
-[2018.11.16-01.26.46:561][265]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.26.47:045][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.26.47:088][300]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBase8EC9011C4D69A49019DFDDA5352BB3F1.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.26.48:706][491]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.26.50:081][491]LogSlate: Window 'Save Content' being destroyed
-[2018.11.16-01.26.50:100][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBoss" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBoss.uasset" SILENT=true
-[2018.11.16-01.26.50:123][491]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBoss832EB94647AA933CFEB1018974306CB7.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBoss.uasset'
-[2018.11.16-01.26.50:211][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.26.50:265][491]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_0195BB9B394C84F69A66FDFF95668BAB7A.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.26.50:300][491]LogFileHelpers: Saving map 'TestMap_01' took 0.165
-[2018.11.16-01.28.13:668][426]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.28.14:153][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.28.14:199][461]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBase9B6F4FCA4D257F8A318EB18B731FECC9.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.28.15:575][624]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.28.16:851][624]LogSlate: Window 'Save Content' being destroyed
-[2018.11.16-01.28.16:945][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.28.17:003][624]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01BFD6A8054A8B67867E99F6A94EBF8FC3.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.28.17:037][624]LogFileHelpers: Saving map 'TestMap_01' took 0.168
-[2018.11.16-01.28.43:987][962]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.28.44:479][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.28.44:519][996]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBaseFE6AD3C54129E4E133CFD2B6E8E60E49.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.28.45:486][111]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.28.46:817][111]LogSlate: Window 'Save Content' being destroyed
-[2018.11.16-01.28.46:835][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBoss" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBoss.uasset" SILENT=true
-[2018.11.16-01.28.46:858][111]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBossF24342AF4DBFB4A19494029436534A5D.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBoss.uasset'
-[2018.11.16-01.28.46:946][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.28.47:005][111]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_018624D0F946BD1A5C3A69F6B3865F9A4C.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.28.47:040][111]LogFileHelpers: Saving map 'TestMap_01' took 0.171
-[2018.11.16-01.29.07:974][871]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.29.08:410][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.29.08:449][901]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBase1439243248AEACDE504C21B73141D7CF.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.29.10:854][187]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.29.12:095][187]LogSlate: Window 'Save Content' being destroyed
-[2018.11.16-01.29.12:191][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.29.12:248][187]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01A5DD21E74E317B5693BEA187418DF3F1.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.29.12:283][187]LogFileHelpers: Saving map 'TestMap_01' took 0.170
-[2018.11.16-01.29.43:875][630]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.29.44:356][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.29.44:395][664]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBaseBC4E6A29473BE7CC16DBC784AC5DD8E7.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.30.03:154][879]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.30.03:535][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.30.03:600][898]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic5D33247D4A60EBF80D84B1B85A09301B.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.30.24:531][384]BlueprintLog: New page: Compile BP_EnemyBase
-[2018.11.16-01.30.24:921][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
-[2018.11.16-01.30.24:962][407]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBase094AD5394A7AC4AEED2928AD382962AA.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
-[2018.11.16-01.30.27:225][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.30.27:288][659]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01B9048EB34FDAB910BB3B84A1066F8873.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.30.27:322][659]LogFileHelpers: Saving map 'TestMap_01' took 0.174
-[2018.11.16-01.31.04:370][  1]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.11.16-01.31.15:552][327]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyBase_C (BP_EnemyBase)
-[2018.11.16-01.31.18:155][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.16-01.31.33:353][446]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.31.33:773][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.31.33:830][469]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicC1360BCB4C41882EDF6B50B317504CB5.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.32.11:119][912]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.32.11:561][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.32.11:621][933]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic5E3FB15741E0125372D9EF86CDD059BC.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.32.14:937][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.32.14:993][322]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicB234574A4F9C414C4912A294CAB59A18.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.32.16:933][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.32.16:991][549]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01AF42BB084767337FAFC5CE9ABFED4B57.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.32.17:027][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
-[2018.11.16-01.32.17:054][549]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01_BuiltDataAD8F2B3C47549DEFC94F6EA9237B2738.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
-[2018.11.16-01.32.17:556][607]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.32.45:037][457]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.32.45:459][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.32.45:516][479]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicADDE842C430A67F67E4AE68FA943FB14.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.32.47:986][769]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.32.49:226][769]LogSlate: Window 'Save Content' being destroyed
-[2018.11.16-01.32.49:323][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.32.49:379][769]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01A2FCF83648C16CEDBC7ACD9377AE4039.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.32.49:417][769]LogFileHelpers: Saving map 'TestMap_01' took 0.170
-[2018.11.16-01.33.27:757][941]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/BPW_GameWindow.BPW_GameWindow
-[2018.11.16-01.33.43:755][809]BlueprintLog: New page: Compile BPW_GameWindow
-[2018.11.16-01.33.44:482][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/BPW_GameWindow" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset" SILENT=true
-[2018.11.16-01.33.44:513][888]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BPW_GameWindowE2416C804D8EADAB09901FAFA00FC8A9.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
-[2018.11.16-01.33.59:060][617]BlueprintLog: New page: Compile BPW_GameWindow
-[2018.11.16-01.33.59:457][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/BPW_GameWindow" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset" SILENT=true
-[2018.11.16-01.33.59:484][656]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BPW_GameWindow11033C33420F1B785F4D44A955B54AE3.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
-[2018.11.16-01.34.44:084][954]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.34.44:543][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.34.44:604][982]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicED3C2D7048C0668F4F37878DCAD72A6D.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.34.47:292][302]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.34.48:422][302]LogSlate: Window 'Save Content' being destroyed
-[2018.11.16-01.34.48:517][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.34.48:576][302]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_014B15374D4D24B309ADAD19910070F089.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.34.48:613][302]LogFileHelpers: Saving map 'TestMap_01' took 0.173
-[2018.11.16-01.35.22:974][999]BlueprintLog: New page: Compile BPW_GameWindow
-[2018.11.16-01.35.23:404][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/BPW_GameWindow" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset" SILENT=true
-[2018.11.16-01.35.23:433][ 41]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BPW_GameWindow8434D5904F93037F49D5879147759232.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
-[2018.11.16-01.35.25:654][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/BPW_GameWindow" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset" SILENT=true
-[2018.11.16-01.35.25:680][300]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BPW_GameWindowA4E9AD994BE55023AEAB499A08743088.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
-[2018.11.16-01.35.27:466][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.35.27:529][497]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01FA8D9DBC4537EA3D2E8E55B2BF6BE30B.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.35.27:564][497]LogFileHelpers: Saving map 'TestMap_01' took 0.174
-[2018.11.16-01.35.28:396][596]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.36.37:931][703]Cmd: TRANSACTION UNDO
-[2018.11.16-01.36.37:931][703]LogEditorTransaction: Undo Move Actors
-[2018.11.16-01.36.38:521][770]Cmd: TRANSACTION UNDO
-[2018.11.16-01.36.38:521][770]LogEditorTransaction: Undo Animatable Property Changed
-[2018.11.16-01.36.41:152][ 84]Cmd: TRANSACTION UNDO
-[2018.11.16-01.36.41:152][ 84]LogEditorTransaction: Undo Animatable Property Changed
-[2018.11.16-01.36.42:846][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.16-01.36.54:812][718]BlueprintLog: New page: Compile BP_GameLogic
-[2018.11.16-01.36.55:416][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
-[2018.11.16-01.36.55:482][758]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic68D5A41745016A56FC94BAB5C1280AA5.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
-[2018.11.16-01.36.58:119][ 70]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
-[2018.11.16-01.36.59:141][ 70]LogSlate: Window 'Save Content' being destroyed
-[2018.11.16-01.36.59:238][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.16-01.36.59:297][ 70]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01FFD171004B1F532BB732008FB9D28510.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
-[2018.11.16-01.36.59:332][ 70]LogFileHelpers: Saving map 'TestMap_01' took 0.174
-[2018.11.16-01.38.42:583][256]LogSlate: Window 'Device Manager' being destroyed
-[2018.11.16-01.38.42:587][256]LogSlate: Window 'Device Manager' being destroyed
-[2018.11.16-01.38.45:948][546]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.11.16-01.38.46:030][547]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SimonOfTheDead
-[2018.11.16-01.38.46:030][547]LogTemp: CWD: C:\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.16-01.38.46:030][547]LogTemp: Initial Dir: C:\UE_4.20
-[2018.11.16-01.38.46:030][547]LogTemp: Env CWD: C:\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.16-01.38.46:053][548]LogTemp: BranchPath = MEL-108-2604/C/UE_4.20/Engine/Binaries --- GameBranchPath = MEL-108-2604/C/UE_4.20/Engine/Binaries
-[2018.11.16-01.38.46:070][549]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\hpennycuick\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.11.16-01.38.54:703][471]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.11.16-01.38.54:765][472]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SimonOfTheDead
-[2018.11.16-01.38.54:766][472]LogTemp: CWD: C:\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.16-01.38.54:766][472]LogTemp: Initial Dir: C:\UE_4.20
-[2018.11.16-01.38.54:766][472]LogTemp: Env CWD: C:\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.16-01.38.54:785][473]LogTemp: BranchPath = MEL-108-2604/C/UE_4.20/Engine/Binaries --- GameBranchPath = MEL-108-2604/C/UE_4.20/Engine/Binaries
-[2018.11.16-01.38.54:800][474]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\hpennycuick\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.11.16-01.39.00:975][114]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.11.16-01.39.01:049][116]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SimonOfTheDead
-[2018.11.16-01.39.01:049][116]LogTemp: CWD: C:\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.16-01.39.01:049][116]LogTemp: Initial Dir: C:\UE_4.20
-[2018.11.16-01.39.01:049][116]LogTemp: Env CWD: C:\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.16-01.39.01:049][116]LogTemp: BranchPath = MEL-108-2604/C/UE_4.20/Engine/Binaries --- GameBranchPath = MEL-108-2604/C/UE_4.20/Engine/Binaries
-[2018.11.16-01.39.01:061][117]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\hpennycuick\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.11.16-01.39.03:226][363]LogSlate: Window 'Project Settings' being destroyed
-[2018.11.16-01.39.03:230][363]LogSlate: Window 'Project Settings' being destroyed
-[2018.11.16-01.39.11:575][261]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.11.16-01.39.11:650][264]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SimonOfTheDead
-[2018.11.16-01.39.11:650][264]LogTemp: CWD: C:\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.16-01.39.11:650][264]LogTemp: Initial Dir: C:\UE_4.20
-[2018.11.16-01.39.11:650][264]LogTemp: Env CWD: C:\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.16-01.39.11:650][264]LogTemp: BranchPath = MEL-108-2604/C/UE_4.20/Engine/Binaries --- GameBranchPath = MEL-108-2604/C/UE_4.20/Engine/Binaries
-[2018.11.16-01.39.11:668][266]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\hpennycuick\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.11.16-01.39.13:637][502]LogSlate: Window 'Project Settings' being destroyed
-[2018.11.16-01.39.13:640][502]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.16-02.46.12:471][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.16-02.46.12:471][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.16-02.46.12:504][  0]LogHAL: Display: Platform has ~ 32 GB [34270777344 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.16-02.46.12:504][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.16-02.46.12:504][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.16-02.46.12:504][  0]LogInit: Computer: MEL-108-2604
+[2018.11.16-02.46.12:504][  0]LogInit: User: hpennycuick
+[2018.11.16-02.46.12:504][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.16-02.46.12:504][  0]LogInit: High frequency timer resolution =3.328123 MHz
+[2018.11.16-02.46.12:505][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.11.16-02.46.12:505][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.16-02.46.12:505][  0]LogMemory: Process Physical Memory: 97.84 MB used, 97.84 MB peak
+[2018.11.16-02.46.12:505][  0]LogMemory: Process Virtual Memory: 90.77 MB used, 90.77 MB peak
+[2018.11.16-02.46.12:505][  0]LogMemory: Physical Memory: 7310.50 MB used,  25372.66 MB free, 32683.16 MB total
+[2018.11.16-02.46.12:505][  0]LogMemory: Virtual Memory: 4634.34 MB used,  25372.66 MB free, 134217728.00 MB total
+[2018.11.16-02.46.12:547][  0]LogInit: Using OS detected language (en-US).
+[2018.11.16-02.46.12:547][  0]LogInit: Using OS detected locale (en-AU).
+[2018.11.16-02.46.12:548][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.16-02.46.12:880][  0]LogStreaming: Display: Took  0.332s to InitEngineTextLocalization.
+[2018.11.16-02.46.12:880][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.16-02.46.12:914][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.16-02.46.12:914][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.16-02.46.13:100][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.16-02.46.13:150][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2018.11.16-02.46.13:150][  0]LogD3D11RHI:       4053/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.16-02.46.13:151][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.16-02.46.13:151][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.16-02.46.13:151][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.16-02.46.13:157][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.16-02.46.13:157][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.16-02.46.13:157][  0]LogWindows: EnumDisplayDevices:
+[2018.11.16-02.46.13:158][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2018.11.16-02.46.13:158][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.11.16-02.46.13:158][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.11.16-02.46.13:158][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.11.16-02.46.13:159][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.16-02.46.13:159][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2018.11.16-02.46.13:159][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.11.16-02.46.13:159][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.11.16-02.46.13:159][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2018.11.16-02.46.13:195][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.16-02.46.13:211][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.16-02.46.13:253][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../Users/hpennycuick/Documents/SimonOfTheDead/Intermediate/Shaders/WorkingDirectory/11828/).
+[2018.11.16-02.46.13:254][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hpennycuick/AppData/Local/Temp/UnrealShaderWorkingDir/9F0D81B74FDB0E608169F88EC623D5A7/'.
+[2018.11.16-02.46.13:593][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.16-02.46.13:606][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.16-02.46.13:618][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.16-02.46.13:632][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.16-02.46.13:645][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.16-02.46.13:658][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.16-02.46.13:671][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.16-02.46.13:683][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.16-02.46.13:689][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-02.46.13:765][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.16-02.46.13:825][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.16-02.46.13:825][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.16-02.46.13:851][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.16-02.46.13:851][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.16-02.46.13:863][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.16-02.46.13:875][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.16-02.46.13:888][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.16-02.46.13:902][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.16-02.46.13:912][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.16-02.46.13:912][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.16-02.46.13:976][  0]LogXGEController: Cleaning working directory: C:/Users/hpennycuick/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.16-02.46.13:976][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.16-02.46.13:976][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.16-02.46.13:976][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.16-02.46.14:589][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.16-02.46.14:633][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/hpennycuick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.16-02.46.14:633][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hpennycuick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.16-02.46.14:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/hpennycuick/Documents/SimonOfTheDead/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.16-02.46.14:633][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.16-02.46.14:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/hpennycuick/Documents/SimonOfTheDead/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.16-02.46.14:633][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.16-02.46.14:645][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.16-02.46.14:657][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hpennycuick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.16-02.46.14:657][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.16-02.46.14:657][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.16-02.46.14:673][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.16-02.46.14:674][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.16-02.46.14:675][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.16-02.46.14:747][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.11.16-02.46.15:029][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.16-02.46.15:172][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.16-02.46.15:176][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.16-02.46.15:176][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.16-02.46.15:176][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.16-02.46.15:176][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.16-02.46.15:192][  0]LogNetVersion: SimonOfTheDead 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 577601420)
+[2018.11.16-02.46.15:646][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.097577 seconds
+[2018.11.16-02.46.15:651][  0]LogUObjectArray: 37353 objects as part of root set at end of initial load.
+[2018.11.16-02.46.15:651][  0]LogUObjectAllocator: 6485040 out of 0 bytes used by permanent object pool.
+[2018.11.16-02.46.15:651][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.16-02.46.16:489][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.16-02.46.16:502][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.16-02.46.16:652][  0]SourceControl: Source control is disabled
+[2018.11.16-02.46.16:652][  0]SourceControl: Source control is disabled
+[2018.11.16-02.46.16:654][  0]SourceControl: Source control is disabled
+[2018.11.16-02.46.16:655][  0]SourceControl: Source control is disabled
+[2018.11.16-02.46.16:854][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.16-02.46.17:139][  0]LogEngine: Initializing Engine...
+[2018.11.16-02.46.17:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.16-02.46.17:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.16-02.46.17:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.16-02.46.17:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.16-02.46.17:321][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.16-02.46.17:334][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.16-02.46.17:363][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-02.46.17:469][  0]LogInit: FAudioDevice initialized.
+[2018.11.16-02.46.17:469][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.16-02.46.17:550][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/hpennycuick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.16-02.46.17:556][  0]LogInit: Texture streaming: Enabled
+[2018.11.16-02.46.17:585][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.16-02.46.17:597][  0]LogInit: Transaction tracking system initialized
+[2018.11.16-02.46.17:619][  0]BlueprintLog: New page: Editor Load
+[2018.11.16-02.46.17:691][  0]LocalizationService: Localization service is disabled
+[2018.11.16-02.46.17:969][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.16-02.46.17:969][  0]LogCook: Display: Mobile HDR setting 0
+[2018.11.16-02.46.17:969][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.16-02.46.17:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.16-02.46.17:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.16-02.46.17:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.16-02.46.17:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.16-02.46.18:083][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hpennycuick/Documents/SimonOfTheDead/Content/' took 0.01s
+[2018.11.16-02.46.18:083][  0]SourceControl: Source control is disabled
+[2018.11.16-02.46.18:083][  0]Cmd: MAP LOAD FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.16-02.46.18:083][  0]LightingResults: New page: Lighting Build
+[2018.11.16-02.46.18:086][  0]MapCheck: New page: Map Check
+[2018.11.16-02.46.18:086][  0]LightingResults: New page: Lighting Build
+[2018.11.16-02.46.18:283][  0]LogAIModule: Creating AISystem for world TestMap_01
+[2018.11.16-02.46.18:289][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.16-02.46.18:308][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.16-02.46.18:378][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.312ms to complete.
+[2018.11.16-02.46.18:378][  0]LogFileHelpers: Loading map 'TestMap_01' took 0.295
+[2018.11.16-02.46.18:544][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-02.46.18:550][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-02.46.18:557][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-02.46.18:564][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-02.46.18:570][  0]LogCollectionManager: Loaded 0 collections in 0.001475 seconds
+[2018.11.16-02.46.18:635][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hpennycuick/Documents/SimonOfTheDead/Saved/Collections/' took 0.01s
+[2018.11.16-02.46.18:636][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hpennycuick/Documents/SimonOfTheDead/Content/Developers/hpennycuick/Collections/' took 0.01s
+[2018.11.16-02.46.18:636][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hpennycuick/Documents/SimonOfTheDead/Content/Collections/' took 0.01s
+[2018.11.16-02.46.18:636][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.16-02.46.18:651][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2544 classes and 570 folders.
+[2018.11.16-02.46.18:663][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.16-02.46.18:739][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.16-02.46.18:744][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.11.16-02.46.18:801][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.16-02.46.18:803][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.16-02.46.18:808][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.16-02.46.18:880][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.11.16-02.46.18:985][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.16-02.46.18:985][  0]LogLoad: (Engine Initialization) Total time: 8.41 seconds
+[2018.11.16-02.46.18:985][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.16-02.46.18:995][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.16-02.46.19:012][  0]LogAssetRegistry: Asset discovery search completed in 4.2885 seconds
+[2018.11.16-02.46.19:014][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.16-02.46.19:014][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2018.11.16-02.46.19:016][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.16-02.46.19:121][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.16-02.46.20:021][104]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.16-02.46.22:081][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-02.46.22:139][357]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2018.11.16-02.47.31:472][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-02.47.31:569][368]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Enemies/BP_EnemyBase.BP_EnemyBase
+[2018.11.16-02.47.31:989][368]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.11.16-02.47.32:645][368]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.16-02.47.32:757][369]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.16-02.48.00:244][562]BlueprintLog: New page: Compile BP_EnemyBase
+[2018.11.16-02.48.00:735][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
+[2018.11.16-02.48.00:787][593]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBaseD7867F924BE1A097E38C2CA983A2E6FD.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
+[2018.11.16-02.48.08:258][476]BlueprintLog: New page: Compile BP_EnemyBase
+[2018.11.16-02.48.08:719][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
+[2018.11.16-02.48.08:760][508]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBase3F8CE80F4BFCE592DED7679E132CACC3.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
+[2018.11.16-02.48.11:876][875]LogSlate: Window 'BP_EnemyBase' being destroyed
+[2018.11.16-02.48.12:808][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.16-02.48.12:875][985]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_011E9A713A43589B13317BEAB49DA5E699.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2018.11.16-02.48.12:920][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2018.11.16-02.48.12:947][985]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01_BuiltDataBDAB52D4457E757240175DA672AC8385.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2018.11.16-02.48.19:384][754]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Logic/BP_GameLogic.BP_GameLogic
+[2018.11.16-02.49.39:263][180]BlueprintLog: New page: Compile BP_GameLogic
+[2018.11.16-02.49.39:752][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
+[2018.11.16-02.49.39:830][212]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogicD620AFF347E819FAFA0D709AA414E693.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2018.11.16-02.49.46:506][  9]BlueprintLog: New page: Compile BP_GameLogic
+[2018.11.16-02.49.47:527][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
+[2018.11.16-02.49.47:592][105]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic57D3C2B64FD54258264EC491AD7A2363.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2018.11.16-02.50.17:608][692]BlueprintLog: New page: Compile BP_GameLogic
+[2018.11.16-02.50.18:110][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
+[2018.11.16-02.50.18:175][725]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic73DAC9FC48AAFC14CB94559753A4A11B.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2018.11.16-02.50.21:509][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.16-02.50.21:561][121]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01E62CB4694422B84915EAF2824796C4C2.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2018.11.16-02.50.21:597][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2018.11.16-02.50.21:619][121]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01_BuiltData0C04B9994EC33174CD9C0B8C38FEB0D2.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2018.11.16-02.50.22:275][199]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2018.11.16-02.53.44:839][923]BlueprintLog: New page: Compile BP_GameLogic
+[2018.11.16-02.53.45:621][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
+[2018.11.16-02.53.45:687][990]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic28E0B9C3465B1FDB0618768C93733CA9.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2018.11.16-02.53.46:733][113]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2018.11.16-02.53.47:672][113]LogSlate: Window 'Save Content' being destroyed
+[2018.11.16-02.53.47:775][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.16-02.53.47:840][113]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01356D84F443F1953DE7E1D6AF8CF296F1.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2018.11.16-02.53.47:876][113]LogFileHelpers: Saving map 'TestMap_01' took 0.185
+[2018.11.16-02.54.58:534][636]BlueprintLog: New page: Compile BP_GameLogic
+[2018.11.16-02.54.59:036][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
+[2018.11.16-02.54.59:103][666]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic608A7EB24FF053716D186CB31B923E0B.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2018.11.16-02.55.00:369][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.16-02.55.00:424][814]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01A38AF63943F0D4EC3AF54E829BBD5339.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2018.11.16-02.55.00:460][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2018.11.16-02.55.00:485][814]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/TestMap_01_BuiltDataE83B6BF14BC56D8D569686B0069F21DF.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2018.11.16-02.56.21:455][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
+[2018.11.16-02.56.21:523][521]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic92ECFCA748A931662B0666940B7D363D.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2018.11.16-02.56.25:773][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Logic/BP_GameLogic" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" SILENT=true
+[2018.11.16-02.56.25:837][ 27]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_GameLogic8EB0E8B342C21C2A5F1DBC97E6C9960F.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2018.11.16-02.58.23:650][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemies/BP_EnemyBase" FILE="../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" SILENT=true
+[2018.11.16-02.58.23:700][131]LogSavePackage: Moving '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Saved/BP_EnemyBaseACA8096346222E9F84AF4A95E032C5CA.tmp' to '../../../../Users/hpennycuick/Documents/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset'
+[2018.11.16-02.59.27:786][110]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Logic/Enum_SequenceItem.Enum_SequenceItem
+[2018.11.16-03.17.08:314][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.16-03.17.08:368][102]LogSlate: Window 'SimonOfTheDead - Unreal Editor' being destroyed
+[2018.11.16-03.17.08:370][102]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.16-03.17.08:578][103]Cmd: QUIT_EDITOR
+[2018.11.16-03.17.08:622][103]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.16-03.17.08:622][103]LogExit: Preparing to exit.
+[2018.11.16-03.17.09:517][103]LogExit: Editor shut down
+[2018.11.16-03.17.09:518][103]LogExit: Transaction tracking system shut down
+[2018.11.16-03.17.09:807][103]LogExit: Object subsystem successfully closed.
+[2018.11.16-03.17.09:817][103]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.16-03.17.09:819][103]LogD3D11RHI: Shutdown
+[2018.11.16-03.17.09:819][103]LogD3D11RHI: CleanupD3DDevice
+[2018.11.16-03.17.09:820][103]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.16-03.17.09:847][103]LogModuleManager: Shutting down and abandoning module BlueprintGraph (574)
+[2018.11.16-03.17.09:847][103]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (572)
+[2018.11.16-03.17.09:847][103]LogModuleManager: Shutting down and abandoning module SceneOutliner (570)
+[2018.11.16-03.17.09:847][103]LogModuleManager: Shutting down and abandoning module AddContentDialog (568)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module WidgetCarousel (567)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module EditorWidgets (564)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module CollectionManager (562)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module StatsViewer (560)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module FoliageEdit (558)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module LandscapeEditor (556)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module MeshPaintMode (554)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (552)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module ActorPickerMode (550)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module GeometryMode (548)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module TextureAlignMode (546)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module BspMode (544)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (542)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.11.16-03.17.09:848][103]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (484)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (482)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (480)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (478)
+[2018.11.16-03.17.09:849][103]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (477)
+[2018.11.16-03.17.10:739][103]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (474)
+[2018.11.16-03.17.10:739][103]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (472)
+[2018.11.16-03.17.10:739][103]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (470)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (468)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module InputBindingEditor (466)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module MergeActors (464)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (462)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module LocalizationService (461)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module HardwareTargeting (458)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (456)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module UndoHistory (454)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module XmlParser (452)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module Blutility (450)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (448)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (447)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (444)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module SettingsEditor (442)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module ProjectLauncher (440)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module SessionFrontend (438)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module ProfilerClient (436)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module DeviceManager (434)
+[2018.11.16-03.17.10:740][103]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (433)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module AutomationController (430)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module AutomationWindow (428)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module Layers (426)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (424)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module DetailCustomizations (422)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module PackagesDialog (420)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module Persona (418)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (417)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module AnimGraph (415)
+[2018.11.16-03.17.10:805][103]LogModuleManager: Shutting down and abandoning module Kismet (412)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module GraphEditor (410)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module ClassViewer (408)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module Toolbox (406)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module ModuleUI (404)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module MovieSceneTools (402)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module OutputLog (400)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module GammaUI (398)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module Documentation (396)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (394)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module MovieScene (392)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (390)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module LauncherPlatform (388)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module AnalyticsET (386)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module PortalServices (384)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module PortalRpc (382)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module MessagingRpc (380)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module AIModule (378)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module GameplayDebugger (377)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module AITestSuite (375)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module NavigationSystem (373)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module DesktopPlatform (370)
+[2018.11.16-03.17.10:809][103]LogModuleManager: Shutting down and abandoning module ProfilerService (368)
+[2018.11.16-03.17.10:931][103]LogModuleManager: Shutting down and abandoning module TaskGraph (366)
+[2018.11.16-03.17.10:931][103]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (364)
+[2018.11.16-03.17.10:931][103]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (362)
+[2018.11.16-03.17.10:931][103]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (360)
+[2018.11.16-03.17.10:931][103]LogModuleManager: Shutting down and abandoning module EditableMesh (358)
+[2018.11.16-03.17.10:931][103]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (356)
+[2018.11.16-03.17.10:931][103]LogModuleManager: Shutting down and abandoning module CableComponent (354)
+[2018.11.16-03.17.10:931][103]LogModuleManager: Shutting down and abandoning module AudioCapture (352)
+[2018.11.16-03.17.10:932][103]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (350)
+[2018.11.16-03.17.10:932][103]LogModuleManager: Shutting down and abandoning module AndroidPermission (348)
+[2018.11.16-03.17.10:932][103]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (346)
+[2018.11.16-03.17.10:932][103]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (344)
+[2018.11.16-03.17.10:932][103]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (342)
+[2018.11.16-03.17.10:932][103]LogModuleManager: Shutting down and abandoning module MediaCompositing (340)
+[2018.11.16-03.17.10:932][103]LogModuleManager: Shutting down and abandoning module LinearTimecode (338)
+[2018.11.16-03.17.10:932][103]LogModuleManager: Shutting down and abandoning module ImgMedia (336)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module HTML5Networking (334)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (332)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (330)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module BackChannel (328)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module AppleVision (326)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module AppleImageUtils (324)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module AlembicImporter (322)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module AlembicLibrary (321)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module GeometryCache (320)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (319)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (314)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module DatasmithContent (312)
+[2018.11.16-03.17.10:940][103]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module PolygonModeling (304)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module MeshEditor (302)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (300)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module CryptoKeys (298)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (296)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (294)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module UObjectPlugin (292)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (290)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (288)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module GitSourceControl (286)
+[2018.11.16-03.17.10:941][103]LogModuleManager: Shutting down and abandoning module SourceControl (285)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (282)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (264)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (262)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (260)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module ActorSequence (258)
+[2018.11.16-03.17.10:942][103]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2018.11.16-03.17.11:043][103]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2018.11.16-03.17.11:144][103]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
+[2018.11.16-03.17.11:144][103]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
+[2018.11.16-03.17.11:144][103]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
+[2018.11.16-03.17.11:144][103]LogModuleManager: Shutting down and abandoning module DataValidation (246)
+[2018.11.16-03.17.11:144][103]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.11.16-03.17.11:145][103]LogModuleManager: Shutting down and abandoning module LevelEditor (243)
+[2018.11.16-03.17.11:148][103]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (242)
+[2018.11.16-03.17.11:148][103]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (240)
+[2018.11.16-03.17.11:149][103]LogModuleManager: Shutting down and abandoning module MainFrame (238)
+[2018.11.16-03.17.11:149][103]LogModuleManager: Shutting down and abandoning module HotReload (237)
+[2018.11.16-03.17.11:150][103]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.11.16-03.17.11:153][103]LogModuleManager: Shutting down and abandoning module TreeMap (231)
+[2018.11.16-03.17.11:153][103]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (228)
+[2018.11.16-03.17.11:153][103]LogModuleManager: Shutting down and abandoning module AISupportModule (226)
+[2018.11.16-03.17.11:153][103]LogModuleManager: Shutting down and abandoning module Paper2D (224)
+[2018.11.16-03.17.11:153][103]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (222)
+[2018.11.16-03.17.11:153][103]LogModuleManager: Shutting down and abandoning module WmfMedia (220)
+[2018.11.16-03.17.11:157][103]LogModuleManager: Shutting down and abandoning module Media (219)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module PacketHandler (216)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (214)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (212)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module MediaAssets (210)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module Overlay (208)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module OverlayEditor (207)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.11.16-03.17.11:165][103]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.11.16-03.17.11:166][103]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.11.16-03.17.11:166][103]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.11.16-03.17.11:166][103]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (193)
+[2018.11.16-03.17.11:166][103]LogModuleManager: Shutting down and abandoning module UMG (190)
+[2018.11.16-03.17.11:166][103]LogModuleManager: Shutting down and abandoning module UMGEditor (189)
+[2018.11.16-03.17.11:166][103]LogModuleManager: Shutting down and abandoning module Sequencer (188)
+[2018.11.16-03.17.11:166][103]LogModuleManager: Shutting down and abandoning module MessageLog (185)
+[2018.11.16-03.17.11:167][103]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.11.16-03.17.11:167][103]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.11.16-03.17.11:167][103]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.11.16-03.17.11:173][103]LogModuleManager: Shutting down and abandoning module MRMesh (174)
+[2018.11.16-03.17.11:173][103]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (172)
+[2018.11.16-03.17.11:173][103]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (170)
+[2018.11.16-03.17.11:173][103]LogModuleManager: Shutting down and abandoning module XAudio2 (168)
+[2018.11.16-03.17.11:173][103]LogModuleManager: Shutting down and abandoning module Networking (166)
+[2018.11.16-03.17.11:173][103]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.11.16-03.17.11:173][103]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.11.16-03.17.11:174][103]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
+[2018.11.16-03.17.11:174][103]LogModuleManager: Shutting down and abandoning module MeshUtilities (158)
+[2018.11.16-03.17.11:174][103]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (157)
+[2018.11.16-03.17.11:174][103]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (156)
+[2018.11.16-03.17.11:174][103]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (155)
+[2018.11.16-03.17.11:174][103]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (153)
+[2018.11.16-03.17.11:174][103]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
+[2018.11.16-03.17.11:174][103]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
+[2018.11.16-03.17.11:174][103]LogModuleManager: Shutting down and abandoning module MaterialBaking (145)
+[2018.11.16-03.17.11:175][103]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (141)
+[2018.11.16-03.17.11:175][103]LogModuleManager: Shutting down and abandoning module DerivedDataCache (138)
+[2018.11.16-03.17.11:234][103]LogDerivedDataCache: Shutdown
+[2018.11.16-03.17.11:234][103]LogModuleManager: Shutting down and abandoning module XGEController (136)
+[2018.11.16-03.17.11:234][103]LogXGEController: Cleaning working directory: C:/Users/hpennycuick/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module TargetPlatform (134)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (133)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (131)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (103)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2018.11.16-03.17.11:235][103]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2018.11.16-03.17.11:236][103]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2018.11.16-03.17.11:236][103]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2018.11.16-03.17.11:236][103]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2018.11.16-03.17.11:237][103]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2018.11.16-03.17.11:237][103]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (85)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (56)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
+[2018.11.16-03.17.11:249][103]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (50)
+[2018.11.16-03.17.11:250][103]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2018.11.16-03.17.11:250][103]LogModuleManager: Shutting down and abandoning module WebSockets (44)
+[2018.11.16-03.17.11:267][103]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.11.16-03.17.11:267][103]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.16-03.17.11:267][103]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2F4C6F05-49B9-C447-2335-54801F6F1352%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=3e120cd845f37aa5ea5633a0553ad429%7C086fe221c6934852a30c6a01104ea8a8%7C8f7ca108-0e80-45bf-b167-f38aa5d91da3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.16-03.17.11:269][103]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.11.16-03.17.11:270][103]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.16-03.17.11:270][103]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.16-03.17.11:270][103]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.16-03.17.11:270][103]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.16-03.17.11:271][103]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.16-03.17.11:271][103]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.16-03.17.11:271][103]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.16-03.17.11:272][103]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.16-03.17.11:280][103]LogExit: Exiting.
+[2018.11.16-03.17.11:282][103]Log file closed, 11/16/18 14:17:11
