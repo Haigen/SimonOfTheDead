@@ -1,4 +1,4 @@
-# Visual Studio 2015 user specific files
+# Visual Studio 2017 user specific files
 .vs/
 
 # Compiled Object files
@@ -15,9 +15,6 @@
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
 
 # Compiled Static libraries
 *.lai
@@ -47,6 +44,14 @@ Plugins/*/Binaries/*
 
 # Builds
 Build/*
+
+# Whitelist PakBlacklist-<BuildConfiguration>.txt files
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+
+# Don't ignore icon files in Build
+!Build/**/*.ico
 
 # Built data for maps
 *_BuiltData.uasset
