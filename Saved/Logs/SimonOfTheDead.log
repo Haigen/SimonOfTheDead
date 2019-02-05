@@ -1161,3 +1161,67 @@ Make sure 'BPW_GameWindow_C' has been compiled for  Vignette Activate
 [2019.02.05-05.36.09:496][731]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData4F652A684AA6D7DE8C310EAAAAC9F5B6.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
 [2019.02.05-05.36.10:911][882]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
 [2019.02.05-05.37.48:957][129]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow2F1DA16B4AABF6F2748F858B74893914.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.46.09:574][899]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestMap_01' took 0.032
+[2019.02.05-05.46.09:575][899]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Logic/BP_ParticleShot] ([1] browsable assets)...
+[2019.02.05-05.46.09:575][899]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Logic/BP_ParticleShot]
+[2019.02.05-05.46.09:647][899]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_ParticleShot_Auto3D6CD06B444D9B12E7C27FD87860AE4DF.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/Autosaves/Game/Blueprints/Logic/BP_ParticleShot_Auto3.uasset'
+[2019.02.05-05.46.09:650][899]LogFileHelpers: Auto-saving content packages took 0.076
+[2019.02.05-05.50.45:384][692]LogEditorTransaction: Undo Mouse Drag
+[2019.02.05-05.50.45:679][726]LogEditorTransaction: Undo Mouse Drag
+[2019.02.05-05.50.45:879][748]LogEditorTransaction: Undo Mouse Drag
+[2019.02.05-05.50.59:027][312]BlueprintLog: New page: Compile BP_ParticleShot
+[2019.02.05-05.50.59:758][349]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_ParticleShotCFECB78549F0A7F8C63A7F92AA3E56E9.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_ParticleShot.uasset'
+[2019.02.05-05.51.02:578][646]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_010C8B5AA44ADE95104CB1469ADDF43502.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.51.02:629][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-05.51.02:651][646]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData97D9361F4106CE0BC73256BE1EEA46EE.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-05.51.06:567][ 93]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.53.04:902][ 22]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Enemies/BP_EnemyBoss.BP_EnemyBoss
+[2019.02.05-05.53.06:481][139]LogRenderer: Reallocating scene render targets to support 2420x1260 Format 10 NumSamples 1 (Frame:1).
+[2019.02.05-05.53.15:571][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-05.53.15:646][203]BlueprintLog: New page: Compile BP_EnemyBoss
+[2019.02.05-05.53.16:313][220]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_EnemyBoss04D8C8D54B3385EC739647B0B3074282.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBoss.uasset'
+[2019.02.05-05.55.24:961][773]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_GameLogic73D944F14731EA7087190B8E419BB2B2.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2019.02.05-05.55.44:191][765]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.56.05:124][568]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Enemies/BP_EnemyDefault.BP_EnemyDefault
+[2019.02.05-05.56.13:733][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-05.56.14:719][534]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Enemies/BP_EnemyNormal.BP_EnemyNormal
+[2019.02.05-05.56.20:957][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-05.56.35:456][706]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.05-05.56.42:926][584]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.05-05.56.48:086][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-05.56.48:145][182]BlueprintLog: New page: Compile BP_EnemyNormal
+[2019.02.05-05.56.48:620][182]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_EnemyNormal02CB77594DAA65ECD96540876FBF6E42.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyNormal.uasset'
+[2019.02.05-05.57.06:224][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-05.57.08:291][489]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_018793688E4647945CAB8FEA9583640B25.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.57.08:339][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-05.57.08:361][489]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData8CA4C5DD417C1F372EF68E95806C35CF.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-05.57.34:466][355]BlueprintLog: New page: Compile BP_EnemyDefault
+[2019.02.05-05.57.35:090][370]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_EnemyDefault85C6A3E24F5E43CC78B6DC9ED9CF5007.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyDefault.uasset'
+[2019.02.05-05.58.47:700][937]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.05-05.58.48:741][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-05.59.08:228][376]BlueprintLog: New page: Compile BP_EnemyNormal
+[2019.02.05-05.59.08:811][412]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_EnemyNormal5F2E66C6484C6647A6E91BBF40CC36F8.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyNormal.uasset'
+[2019.02.05-05.59.22:352][ 23]BlueprintLog: New page: Compile BP_EnemyNormal
+[2019.02.05-05.59.22:915][ 60]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_EnemyNormal90F70110453343CE3505FABD6408A2A9.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyNormal.uasset'
+[2019.02.05-05.59.30:727][985]BlueprintLog: New page: Compile BP_EnemyDefault
+[2019.02.05-05.59.31:315][997]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_EnemyDefaultA773390D4AF64D30B9B2BA9CB5F5D6A3.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyDefault.uasset'
+[2019.02.05-05.59.48:069][797]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.05-05.59.57:937][971]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Logic/BP_SwitcherBox.BP_SwitcherBox
+[2019.02.05-06.00.08:840][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-06.00.15:086][863]BlueprintLog: New page: Compile BP_SwitcherBox
+[2019.02.05-06.00.15:603][895]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_SwitcherBox72C3E9BA4523CC571D990C8CC9F90436.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_SwitcherBox.uasset'
+[2019.02.05-06.00.47:366][630]BlueprintLog: New page: Compile BP_SwitcherBox
+[2019.02.05-06.00.47:971][677]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_SwitcherBoxDAED910F470A755DC3FC9C91B5AFB51B.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_SwitcherBox.uasset'
+[2019.02.05-06.01.00:818][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-06.01.05:745][703]LogEditorViewport: Clicking Background
+[2019.02.05-06.01.06:080][737]LogEditorViewport: Clicking on Actor (LMB): BP_SwitcherBox_C (BP_SwitcherBox)
+[2019.02.05-06.01.06:945][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-06.01.07:246][842]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01D3FA3D1A45C614E75B01CE8AC7F64AB3.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-06.01.07:294][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-06.01.07:311][842]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData0A81BF5F4AC8388D5629B78AF2CEC02C.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-06.01.08:224][946]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-06.02.08:924][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.05-06.02.09:216][690]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01F152BA954908D988BC98DAA085F243A8.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-06.02.09:264][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-06.02.09:286][690]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData93A3D24849164EA585B86984128CCB5C.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-06.02.10:150][788]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
