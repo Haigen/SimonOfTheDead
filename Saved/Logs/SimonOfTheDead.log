@@ -1152,3 +1152,12 @@ Make sure 'BPW_GameWindow_C' has been compiled for  Vignette Activate
 [2019.02.05-05.30.17:732][711]LogTexture: Display: Building textures: HurtVingette (AutoDXT, 512X512)
 [2019.02.05-05.30.17:891][711]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/HurtVingette480D1CC2488D2E4402D23A8BF4613886.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/HurtVingette.uasset'
 [2019.02.05-05.30.18:568][776]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.33.33:227][370]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.34.45:359][ 89]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.36.06:940][491]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.36.07:419][521]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow8AAA044C4032784E118A298CB730727F.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.36.09:421][731]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_014C8DBEDA4380FE02E06CCC8CC3C54758.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.36.09:474][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-05.36.09:496][731]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData4F652A684AA6D7DE8C310EAAAAC9F5B6.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-05.36.10:911][882]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.37.48:957][129]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow2F1DA16B4AABF6F2748F858B74893914.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
