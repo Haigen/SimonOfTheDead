@@ -1035,3 +1035,120 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.02.05-04.51.48:712][459]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01295556034B6DA35E293110A89C0AC1BB.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
 [2019.02.05-04.51.48:763][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
 [2019.02.05-04.51.48:783][459]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData87D8925F4853F5226D4E63BBB591AAFE.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-04.55.58:773][904]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-04.57.52:623][184]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_GameLogic0CACBC86479324349000A5A6F4A8ECAD.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2019.02.05-04.57.53:586][298]BlueprintLog: New page: Compile BP_GameLogic
+[2019.02.05-04.57.56:312][561]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01CC35351D4D5EB07AE314F99F8B85B947.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-04.57.56:358][561]LogFileHelpers: Saving map 'TestMap_01' took 0.229
+[2019.02.05-04.58.08:531][  2]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_GameLogicB7D872D94740833A03C362AC92B7BEE0.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2019.02.05-04.58.08:809][ 34]BlueprintLog: New page: Compile BP_GameLogic
+[2019.02.05-04.58.10:458][175]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01D1F5F69040CDBAB3A400568197D5221D.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-04.58.10:509][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-04.58.10:529][175]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData6C092B0F472C5C1E1D9D1F84ED223291.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-04.58.15:772][763]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01C958EC0F471A2B7D3A461BB1AE43452D.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-04.58.15:818][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-04.58.15:832][763]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData5D71BE284DEBF1AEE028B3951A907833.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-04.58.16:353][810]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.00.51:477][718]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.04.50:026][ 72]BlueprintLog: New page: Compile BP_ParticleShot
+[2019.02.05-05.04.50:499][ 91]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_ParticleShotCBB1DBCD4AF4B58050423D99FF91D6D0.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_ParticleShot.uasset'
+[2019.02.05-05.04.52:078][254]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01B6ECDA00452C6208E0829F8D150A2731.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.04.52:129][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-05.04.52:150][254]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltDataC85E579D4B4BBD038D04588D33B64D5E.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-05.05.17:799][986]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01D3735BA14EF813B33B13FABC345887BD.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.05.17:848][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-05.05.17:862][986]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltDataC70AA87C449DBED61B344291218422B7.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-05.09.05:924][988]BlueprintLog: New page: Compile BP_EnemyDefault
+[2019.02.05-05.09.06:428][990]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_EnemyDefault5AD16C784BA0EC8C8195B89903ED9276.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyDefault.uasset'
+[2019.02.05-05.09.07:151][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.05-05.10.20:667][781]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.10.21:168][821]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow009E631F4036B8ADEA3115BF07354930.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.10.26:994][337]LogSlate: Window 'Save Content' being destroyed
+[2019.02.05-05.10.27:195][337]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01DC90A41543FC7E5B23C871A65EB4B851.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.10.27:243][337]LogFileHelpers: Saving map 'TestMap_01' took 0.235
+[2019.02.05-05.16.19:825][535]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\hpennycuick\Pictures\HurtVingette.png)
+[2019.02.05-05.16.19:835][535]LogTexture: Display: Building textures: HurtVingette (AutoDXT, 512X512)
+[2019.02.05-05.16.21:455][596]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/UI/HurtVingette.HurtVingette
+[2019.02.05-05.16.21:494][596]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.02.05-05.16.23:537][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/UI/HurtVingette" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/HurtVingette.uasset" SILENT=true
+[2019.02.05-05.16.23:582][825]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/HurtVingetteC8AF6DFB4139DE5A437D03B3DDD4C66E.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/HurtVingette.uasset'
+[2019.02.05-05.17.01:860][319]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.17.02:375][357]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindowF4191BE043685556335575A06F7A6C60.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.17.15:067][850]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.17.15:616][893]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow80A44F6F4420F8190D1A17A008619CFE.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.18.08:758][172]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.18.09:259][217]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow2319185746CD55392CF305BED8D15C6C.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.18.14:629][847]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Logic/BP_GameLogic.BP_GameLogic
+[2019.02.05-05.18.31:325][621]BlueprintLog: New page: Compile BP_GameLogic
+[2019.02.05-05.18.32:036][634]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_GameLogic37E42A0F4BD8AF9111DB0FA10E8D0C9B.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2019.02.05-05.18.33:318][780]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.18.35:739][780]LogSlate: Window 'Save Content' being destroyed
+[2019.02.05-05.18.35:962][780]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_0104CE677C4C66D42869198FAD4BFFAC66.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.18.36:010][780]LogFileHelpers: Saving map 'TestMap_01' took 0.253
+[2019.02.05-05.18.56:796][497]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.18.57:572][565]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow538436B644ACDDF31D9C3E90DC5B9946.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.19.16:134][753]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.19.16:694][797]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow98FC06D641DCF0AC4F70F99585C90058.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.19.17:846][931]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.19.19:084][931]LogSlate: Window 'Save Content' being destroyed
+[2019.02.05-05.19.19:286][931]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01489CD4D040BD2FF2B0122592955720B3.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.19.19:334][931]LogFileHelpers: Saving map 'TestMap_01' took 0.234
+[2019.02.05-05.20.23:935][234]Cmd: TRANSACTION UNDO
+[2019.02.05-05.20.23:935][234]LogEditorTransaction: Undo Add New Function
+[2019.02.05-05.20.51:497][496]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.20.54:502][843]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.20.54:961][881]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow20C43EDC4A548E1150B8759A520FD7E2.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.20.57:639][199]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.20.58:077][235]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow7F9236BE413D86C69FD604AE80A16354.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.21.08:864][521]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.21.08:927][521]LogBlueprint: Error: [Compiler BP_GameLogic] In use pin  <Unnamed>  no longer exists on node  Vignette Activate . Please refresh node or break links to remove pin.
+[2019.02.05-05.21.08:927][521]LogBlueprint: Error: [Compiler BP_GameLogic] In use pin  <Unnamed>  no longer exists on node  Vignette Activate . Please refresh node or break links to remove pin.
+[2019.02.05-05.21.08:927][521]LogBlueprint: Error: [Compiler BP_GameLogic] In use pin  Target  no longer exists on node  Vignette Activate . Please refresh node or break links to remove pin.
+[2019.02.05-05.21.08:927][521]LogBlueprint: Error: [Compiler BP_GameLogic] Could not find a function named "VignetteActivate" in 'BPW_GameWindow_C'.
+Make sure 'BPW_GameWindow_C' has been compiled for  Vignette Activate
+[2019.02.05-05.21.08:938][521]LogBlueprint: Warning: [Compiler BP_GameLogic] [8884.30] Compile of BP_GameLogic failed. 4 Fatal Issue(s) 0 Warning(s) [in 68 ms] (/Game/Blueprints/Logic/BP_GameLogic.BP_GameLogic)
+[2019.02.05-05.21.09:592][567]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow94C8F06E4E75FEE35E705AB4D8D3452A.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.21.50:082][ 51]BlueprintLog: New page: Compile BP_GameLogic
+[2019.02.05-05.21.50:731][ 59]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_GameLogic5A7E2F634AC4E65D243437A2B5E9E13D.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2019.02.05-05.21.52:285][239]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.21.53:981][239]LogSlate: Window 'Save Content' being destroyed
+[2019.02.05-05.21.54:196][239]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_014850D9A441573EFA6CFA6996CF276F51.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.21.54:244][239]LogFileHelpers: Saving map 'TestMap_01' took 0.244
+[2019.02.05-05.22.37:916][988]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.22.38:443][ 25]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindowF33383784D28767647F343A9D1C0A062.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.22.39:977][176]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01986E8FE8403DDF2A182188B24C747C31.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.22.40:027][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-05.22.40:053][176]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData4741F603423EF90D89A04182D000D226.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-05.22.45:238][757]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.22.45:764][795]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow356DE23B48059F78D31C509D5C2CF7CC.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.22.46:776][911]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.22.48:133][911]LogSlate: Window 'Save Content' being destroyed
+[2019.02.05-05.22.48:347][911]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_012B4B873F4B9D597FB5D1A58A45EA4581.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.22.48:395][911]LogFileHelpers: Saving map 'TestMap_01' took 0.246
+[2019.02.05-05.24.03:422][796]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.02.05-05.24.03:927][833]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow7C3E5F2C4F9F7D4FFB1C8CBC766ABB5F.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.02.05-05.24.05:257][964]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_0167A959D140B17C662D6C778F875446FF.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.24.05:306][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-05.24.05:322][964]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData00FCAE6F4DB2DC568D4EB69E55B5860F.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-05.24.05:860][  5]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.26.27:510][664]LogEditorTransaction: Undo New Value Entered
+[2019.02.05-05.27.30:257][188]BlueprintLog: New page: Compile BP_GameLogic
+[2019.02.05-05.27.30:903][212]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_GameLogic3BBD0EB441BB058AD9D63B9D3E8DC87E.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2019.02.05-05.27.36:196][821]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01CFC3FEBF49B121DC09EFC4A617367AFA.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.27.36:245][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap_01_BuiltData" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" SILENT=true
+[2019.02.05-05.27.36:261][821]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_01_BuiltData4DF9440941C510C9626B4DB8868AB89E.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset'
+[2019.02.05-05.28.04:660][104]BlueprintLog: New page: Compile BP_GameLogic
+[2019.02.05-05.28.05:415][124]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BP_GameLogicDC53F73944896ADAEB32FD9A26C9A7D9.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset'
+[2019.02.05-05.28.06:676][270]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.05-05.28.09:501][270]LogSlate: Window 'Save Content' being destroyed
+[2019.02.05-05.28.09:736][270]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/TestMap_0148AB8BED417870DB6306169E6E82C67B.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap'
+[2019.02.05-05.28.09:781][270]LogFileHelpers: Saving map 'TestMap_01' took 0.262
+[2019.02.05-05.30.14:640][391]LogEditorFactories: Performing atomic reimport of [C:/Users/hpennycuick/Pictures/HurtVingette.png]
+[2019.02.05-05.30.14:642][391]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/hpennycuick/Pictures/HurtVingette.png)
+[2019.02.05-05.30.14:650][391]LogTexture: Display: Building textures: HurtVingette (BGRA8, 512X512)
+[2019.02.05-05.30.14:673][391]LogTexture: Display: Building textures: HurtVingette (BGRA8, 512X512)
+[2019.02.05-05.30.14:688][391]LogEditorFactories: -- imported successfully
+[2019.02.05-05.30.17:716][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/UI/HurtVingette" FILE="../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/HurtVingette.uasset" SILENT=true
+[2019.02.05-05.30.17:732][711]LogTexture: Display: Building textures: HurtVingette (AutoDXT, 512X512)
+[2019.02.05-05.30.17:891][711]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/HurtVingette480D1CC2488D2E4402D23A8BF4613886.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/HurtVingette.uasset'
+[2019.02.05-05.30.18:568][776]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
