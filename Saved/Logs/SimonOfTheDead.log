@@ -1584,3 +1584,435 @@ Script Stack (0 frames):
 [2019.03.05-05.46.19:112][ 12]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_Credits0AFAAF6E4873431DD2E64CB6D7748F1B.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_Credits.uasset'
 [2019.03.05-05.46.19:901][ 95]BlueprintLog: New page: Compile BPW_Credits
 [2019.03.05-05.46.20:249][ 95]LogSlate: Warning: Unable to scroll to descendant as it's not a child of the scrollbox
+[2019.03.05-05.50.45:993][881]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_GameOver.BPW_GameOver:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_Hearts.BPW_Hearts:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_GameWindow.BPW_GameWindow:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons_C:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_GameOver_C_221:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:BPW_MainMenu_C_175.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_Hearts.BPW_Hearts_C:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_MainMenu.BPW_MainMenu:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_Credits.BPW_Credits:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_25.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_30.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_GameOver_C_230:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_ConfirmationScreen.BPW_ConfirmationScreen:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_58.WidgetTree_0.BPW_Hearts.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_GameOver_C_197:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:BPW_MainSettings_C_147.WidgetTree_0.BPW_ConfirmationScreen.WidgetTree_1.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_GameOver_C_188:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_MainSettings_C_269:WidgetTree.BPW_ConfirmationScreen.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:BPW_Credits_C_133.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_13.WidgetTree_0.BPW_Hearts.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_17.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_Leaderboard_C_291:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_13.WidgetTree_0.BPW_Buttons.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_ConfirmationScreen.BPW_ConfirmationScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_MainSettings.BPW_MainSettings_C:WidgetTree.BPW_ConfirmationScreen.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:881][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_MainMenu.BPW_MainMenu_C:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_51.WidgetTree_0.BPW_GameOver.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_MainSettings.BPW_MainSettings:WidgetTree.BPW_ConfirmationScreen.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_14.WidgetTree_0.BPW_Buttons.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_Leaderboard_C_248:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_13.WidgetTree_0.BPW_GameOver.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_42.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_51.WidgetTree_0.BPW_Buttons.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_Leaderboard_C_253:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_39.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_Leaderboard_C_258:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_36.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:BPW_MainMenu_C_155.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_20.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_7.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_6.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_GameOver_C_285:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_GameOver.BPW_GameOver_C:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_26.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_14.WidgetTree_0.BPW_Hearts.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:BPW_ConfirmationScreen_C_143.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_ConfirmationScreen_C_279:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_33.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_14.WidgetTree_0.BPW_GameOver.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_14.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:BPW_ConfirmationScreen_C_133.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_20.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_14.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_13.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_58.WidgetTree_0.BPW_MainSettings_WB.WidgetTree_0.BPW_ConfirmationScreen.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_13.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_5.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:BPW_Credits_C_138.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_4.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_38.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_GameWindow_C_203:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_12.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_6.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_51.WidgetTree_0.BPW_MainSettings_WB.WidgetTree_0.BPW_ConfirmationScreen.WidgetTree_1.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_GameOver_C_208:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_GameOver_C_214:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_9.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_58.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_41.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_21.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_5.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_67.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_Credits_C_294:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_Credits.BPW_Credits_C:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:882][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_GameWindow.BPW_GameWindow_C:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_43.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_GameWindow_C_288:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_51.WidgetTree_0.BPW_Hearts.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_37.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:BPW_MainMenu_C_121.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:BPW_MainSettings_C_160.WidgetTree_0.BPW_ConfirmationScreen.WidgetTree_1.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_MainMenu_C_181:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_58.WidgetTree_0.BPW_MainSettings_WB.WidgetTree_0.BPW_ConfirmationScreen.WidgetTree_1.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_29.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_51.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_27.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_58.WidgetTree_0.BPW_Buttons.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:BPW_MainMenu_C_175.WidgetTree_0.BPW_MainSettings_WB.WidgetTree_0.BPW_ConfirmationScreen.WidgetTree_1.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_20:BPW_GameWindow_C_58.WidgetTree_0.BPW_GameOver.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_Credits_C_282:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_3.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_32.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_31.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_13.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:BPW_MainSettings_C_160.WidgetTree_0.BPW_ConfirmationScreen.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_Leaderboard_C_243:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_21.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_Leaderboard.BPW_Leaderboard:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:BPW_Credits_C_142.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:BPW_Leaderboard_C_48.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_BPW_MainMenu_C_271:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:BPW_MainMenu_C_175.WidgetTree_0.BPW_MainSettings_WB.WidgetTree_0.BPW_ConfirmationScreen.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_35.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:BPW_GameOver_C_76.WidgetTree_0.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BPW_Leaderboard.BPW_Leaderboard_C:WidgetTree.CanvasPanel_0
+[2019.03.05-05.58.03:883][907]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/Widgets/BPW_Buttons.BPW_Buttons:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Border /Engine/UMG/Editor/Transient.Tint).  Import failed...
+[2019.03.05-05.58.03:883][907]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2019.03.05-05.58.20:368][762]BlueprintLog: New page: Compile BPW_GameOver
+[2019.03.05-05.58.21:010][772]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameOverAA049F2646E9CA16A593AEB893F5B2B4.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameOver.uasset'
+[2019.03.05-05.58.24:037][ 98]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.03.05-05.59.30:395][894]LogSlate: Warning: Unable to scroll to descendant as it's not a child of the scrollbox
+[2019.03.05-06.00.13:529][757]BlueprintLog: New page: Compile BPW_GameWindow
+[2019.03.05-06.00.14:188][795]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow07BFAA574FC56BA26A3647A8B5D4703E.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.03.05-06.00.22:785][808]LogSavePackage: Moving '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Saved/BPW_GameWindow1B7938434C8F444A6E8E74B8A068DEA1.tmp' to '../../../../../../Users/hpennycuick/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset'
+[2019.03.05-06.00.30:780][731]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.03.05-06.03.48:673][950]LogEditorViewport: Clicking Background
+[2019.03.05-06.03.52:368][154]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-06.03.55:388][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-06.03.56:252][500]LogSlate: Window 'SimonOfTheDead - Unreal Editor' being destroyed
+[2019.03.05-06.03.56:253][500]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.05-06.03.56:524][501]Cmd: QUIT_EDITOR
+[2019.03.05-06.03.56:557][501]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.05-06.03.56:557][501]LogExit: Preparing to exit.
+[2019.03.05-06.03.56:932][501]LogExit: Editor shut down
+[2019.03.05-06.03.56:932][501]LogExit: Transaction tracking system shut down
+[2019.03.05-06.03.57:134][501]LogExit: Object subsystem successfully closed.
+[2019.03.05-06.03.57:153][501]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.05-06.03.57:155][501]LogD3D11RHI: Shutdown
+[2019.03.05-06.03.57:156][501]LogD3D11RHI: CleanupD3DDevice
+[2019.03.05-06.03.57:157][501]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module DistCurveEditor (596)
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module Cascade (594)
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module SequencerWidgets (592)
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module BlueprintGraph (590)
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (588)
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module SceneOutliner (586)
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module AddContentDialog (584)
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module WidgetCarousel (583)
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module EditorWidgets (580)
+[2019.03.05-06.03.57:175][501]LogModuleManager: Shutting down and abandoning module CollectionManager (578)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module StatsViewer (576)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module FoliageEdit (574)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module LandscapeEditor (572)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module MeshPaintMode (570)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (568)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module ActorPickerMode (566)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module GeometryMode (564)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module TextureAlignMode (562)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module BspMode (560)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (558)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (556)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module AutomationWorker (554)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (552)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (550)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (548)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module PlacementMode (547)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module MaterialEditor (546)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (542)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (540)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (538)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (536)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module WebMMedia (534)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (532)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (530)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module SequenceRecorder (529)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (526)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (524)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (522)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (520)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (518)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (516)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (514)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module CharacterAI (512)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module SmartSnapping (510)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module SessionServices (508)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module ViewportSnapping (506)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module ViewportInteraction (504)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module ClothPainter (502)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (501)
+[2019.03.05-06.03.57:176][501]LogModuleManager: Shutting down and abandoning module LogVisualizer (498)
+[2019.03.05-06.03.57:177][501]LogModuleManager: Shutting down and abandoning module IntroTutorials (496)
+[2019.03.05-06.03.57:177][501]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (495)
+[2019.03.05-06.03.57:177][501]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (492)
+[2019.03.05-06.03.57:177][501]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (490)
+[2019.03.05-06.03.57:177][501]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (488)
+[2019.03.05-06.03.57:177][501]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (486)
+[2019.03.05-06.03.57:177][501]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (485)
+[2019.03.05-06.03.58:223][501]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (482)
+[2019.03.05-06.03.58:223][501]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (480)
+[2019.03.05-06.03.58:223][501]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (478)
+[2019.03.05-06.03.58:223][501]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (476)
+[2019.03.05-06.03.58:223][501]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (474)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module InputBindingEditor (472)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module MergeActors (470)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (468)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module LocalizationService (467)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module HardwareTargeting (464)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (462)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module UndoHistory (460)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module XmlParser (458)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module Blutility (456)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (454)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (453)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (450)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module SettingsEditor (448)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module ProjectLauncher (446)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module SessionFrontend (444)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module ProfilerClient (442)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module DeviceManager (440)
+[2019.03.05-06.03.58:224][501]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (439)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module AutomationController (436)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module AutomationWindow (434)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module Layers (432)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (430)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module DetailCustomizations (428)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module PackagesDialog (426)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module Persona (424)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (423)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module AnimGraph (421)
+[2019.03.05-06.03.58:290][501]LogModuleManager: Shutting down and abandoning module Kismet (418)
+[2019.03.05-06.03.58:295][501]LogModuleManager: Shutting down and abandoning module GraphEditor (416)
+[2019.03.05-06.03.58:295][501]LogModuleManager: Shutting down and abandoning module ClassViewer (414)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module Toolbox (412)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module ModuleUI (410)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module MovieSceneTools (408)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module OutputLog (406)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module GammaUI (404)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module Documentation (402)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (400)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module MovieScene (398)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (396)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module LauncherPlatform (394)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module AnalyticsET (392)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module PortalServices (390)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module PortalRpc (388)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module MessagingRpc (386)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module AIModule (384)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module GameplayDebugger (383)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module AITestSuite (381)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module NavigationSystem (379)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
+[2019.03.05-06.03.58:296][501]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (374)
+[2019.03.05-06.03.58:299][501]LogModuleManager: Shutting down and abandoning module ProfilerService (372)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module TaskGraph (370)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module EditableMesh (362)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module MediaCompositing (346)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module LinearTimecode (344)
+[2019.03.05-06.03.58:501][501]LogModuleManager: Shutting down and abandoning module ImgMedia (342)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module HTML5Networking (340)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (338)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (336)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module BackChannel (334)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module AppleVision (332)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (330)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module AppleImageUtils (328)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module AlembicImporter (326)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module AlembicLibrary (325)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module GeometryCache (324)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (323)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module VariantManagerContent (318)
+[2019.03.05-06.03.58:504][501]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (316)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (314)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module PluginBrowser (312)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (310)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module PolygonModeling (308)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module MeshEditor (306)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (304)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module CryptoKeys (302)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (286)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (284)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (282)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (264)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module ActorSequence (262)
+[2019.03.05-06.03.58:505][501]LogModuleManager: Shutting down and abandoning module UdpMessaging (260)
+[2019.03.05-06.03.58:606][501]LogModuleManager: Shutting down and abandoning module TcpMessaging (258)
+[2019.03.05-06.03.58:706][501]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (256)
+[2019.03.05-06.03.58:706][501]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (254)
+[2019.03.05-06.03.58:706][501]LogModuleManager: Shutting down and abandoning module FacialAnimation (252)
+[2019.03.05-06.03.58:706][501]LogModuleManager: Shutting down and abandoning module DataValidation (250)
+[2019.03.05-06.03.58:706][501]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (248)
+[2019.03.05-06.03.58:706][501]LogModuleManager: Shutting down and abandoning module LevelEditor (247)
+[2019.03.05-06.03.58:706][501]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (246)
+[2019.03.05-06.03.58:706][501]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (244)
+[2019.03.05-06.03.58:706][501]LogModuleManager: Shutting down and abandoning module MainFrame (242)
+[2019.03.05-06.03.58:707][501]LogModuleManager: Shutting down and abandoning module HotReload (241)
+[2019.03.05-06.03.58:707][501]LogModuleManager: Shutting down and abandoning module ContentBrowser (237)
+[2019.03.05-06.03.58:709][501]LogModuleManager: Shutting down and abandoning module TreeMap (235)
+[2019.03.05-06.03.58:709][501]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (232)
+[2019.03.05-06.03.58:709][501]LogModuleManager: Shutting down and abandoning module AISupportModule (230)
+[2019.03.05-06.03.58:709][501]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2019.03.05-06.03.58:709][501]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2019.03.05-06.03.58:709][501]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (224)
+[2019.03.05-06.03.58:709][501]LogModuleManager: Shutting down and abandoning module WmfMedia (222)
+[2019.03.05-06.03.58:710][501]LogModuleManager: Shutting down and abandoning module Media (221)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module PacketHandler (218)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (216)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (214)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module Overlay (210)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module OverlayEditor (209)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module VREditor (206)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module StringTableEditor (204)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (202)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (200)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module FunctionalTesting (198)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (196)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (195)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module SlateReflector (182)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module Slate (180)
+[2019.03.05-06.03.58:716][501]LogModuleManager: Shutting down and abandoning module EditorStyle (178)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module MRMesh (176)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module Core (166)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module LevelSequence (164)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module KismetCompiler (162)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (155)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (153)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (151)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module MaterialBaking (147)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (143)
+[2019.03.05-06.03.58:718][501]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2019.03.05-06.03.58:747][501]LogDerivedDataCache: Shutdown
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module XGEController (138)
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module TargetPlatform (136)
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (135)
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (133)
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (131)
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (129)
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (127)
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (125)
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (123)
+[2019.03.05-06.03.58:747][501]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (121)
+[2019.03.05-06.03.58:748][501]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (119)
+[2019.03.05-06.03.58:748][501]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (117)
+[2019.03.05-06.03.58:748][501]LogModuleManager: Shutting down and abandoning module ImageWrapper (116)
+[2019.03.05-06.03.58:748][501]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (113)
+[2019.03.05-06.03.58:748][501]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (111)
+[2019.03.05-06.03.58:748][501]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (109)
+[2019.03.05-06.03.58:748][501]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (107)
+[2019.03.05-06.03.58:748][501]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (105)
+[2019.03.05-06.03.58:748][501]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2019.03.05-06.03.58:749][501]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2019.03.05-06.03.58:749][501]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2019.03.05-06.03.58:749][501]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2019.03.05-06.03.58:749][501]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2019.03.05-06.03.58:749][501]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2019.03.05-06.03.58:749][501]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2019.03.05-06.03.58:750][501]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2019.03.05-06.03.58:750][501]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (87)
+[2019.03.05-06.03.58:754][501]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2019.03.05-06.03.58:754][501]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2019.03.05-06.03.58:754][501]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2019.03.05-06.03.58:754][501]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2019.03.05-06.03.58:754][501]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2019.03.05-06.03.58:754][501]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (60)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (58)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (56)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (52)
+[2019.03.05-06.03.58:755][501]LogModuleManager: Shutting down and abandoning module XMPP (47)
+[2019.03.05-06.03.58:756][501]LogModuleManager: Shutting down and abandoning module WebSockets (46)
+[2019.03.05-06.03.58:769][501]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2019.03.05-06.03.58:769][501]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2019.03.05-06.03.58:769][501]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE2BFD989-4C71-B287-85AC-129B457C050F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=4ac079a7477c188bb7db9d9478e1a007%7C086fe221c6934852a30c6a01104ea8a8%7C6f6a4ca4-7adf-4eb4-8338-6a2c5dcdb275&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.05-06.03.58:769][501]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE2BFD989-4C71-B287-85AC-129B457C050F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=4ac079a7477c188bb7db9d9478e1a007%7C086fe221c6934852a30c6a01104ea8a8%7C6f6a4ca4-7adf-4eb4-8338-6a2c5dcdb275&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.05-06.03.58:774][501]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2019.03.05-06.03.58:774][501]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.05-06.03.58:775][501]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.05-06.03.58:775][501]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.05-06.03.58:775][501]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.05-06.03.58:775][501]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.05-06.03.58:775][501]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.05-06.03.58:775][501]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.05-06.03.58:775][501]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.05-06.03.58:778][501]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.05-06.03.58:785][501]LogExit: Exiting.
+[2019.03.05-06.03.58:793][501]Log file closed, 03/05/19 17:03:58
