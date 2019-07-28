@@ -1,349 +1,724 @@
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_AIController.uasset" 0
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/Enum_SequenceItem.uasset" 1
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A1_S.uasset" 2
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A1_S_Sprite.uasset" 3
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A2_S.uasset" 4
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A2_S_Sprite.uasset" 5
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A3_S.uasset" 6
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A3_S_Sprite.uasset" 7
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A4_S.uasset" 8
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A4_S_Sprite.uasset" 9
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A1.uasset" 10
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A1_Sprite.uasset" 11
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A2.uasset" 12
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A2_Sprite.uasset" 13
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A3.uasset" 14
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A3_Sprite.uasset" 15
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A4.uasset" 16
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A4_Sprite.uasset" 17
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBoss.uasset" 18
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyNormal.uasset" 19
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 20
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/SpriteTranslucent.uasset" 21
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemySmall.uasset" 22
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/white_8x8.uasset" 23
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_SimpleParticle.uasset" 24
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Bits.uasset" 25
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/flare.uasset" 26
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Flare.uasset" 27
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_SubUVParticle.uasset" 28
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Shatter.uasset" 29
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Shards.uasset" 30
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Gem_Shatter.uasset" 31
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 32
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/ParameterCollection.uasset" 33
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_SimpleParticleColor.uasset" 34
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/T_Torch_Flames.uasset" 35
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Torch_Flames.uasset" 36
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_TorchFlames.uasset" 37
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_ParticleShot.uasset" 38
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_Saver.uasset" 39
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Fonts/AveriaSerif-Regular_0_Default.uasset" 40
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Fonts/AveriaSerif-Regular.uasset" 41
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/ButtonWoodBlock.uasset" 42
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/Symbol_Arrow.uasset" 43
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolReplay.uasset" 44
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/T_Parchment_Corners.uasset" 45
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameOver.uasset" 46
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_Buttons.uasset" 47
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 48
-"../../../Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/CheckerPattern.uasset" 49
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 50
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 51
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset" 52
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Swizzle.uasset" 53
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 54
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_SMin.uasset" 55
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_SMin2.uasset" 56
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_SmoothStepWidth.uasset" 57
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_Translcent.uasset" 58
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_TriangleWave.uasset" 59
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Textures/Gloss/T_Gloss_Light.uasset" 60
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/MF_Layers.uasset" 61
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Textures/Patterns/T_PatternHeart.uasset" 62
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/MF_Rect.uasset" 63
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/M_UmgRectBar.uasset" 64
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/MI_UmgRectBar.uasset" 65
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternHearts.uasset" 66
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_Hearts.uasset" 67
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/T_Parchment_Corners_Mat.uasset" 68
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/Button_Cancel.uasset" 69
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/Symbole_Check.uasset" 70
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_ConfirmationScreen.uasset" 71
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SettingsCheckboxOff.uasset" 72
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SettingsCheckboxOn.uasset" 73
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_MainSettings.uasset" 74
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolSettings.uasset" 75
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/HurtVingette.uasset" 76
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset" 77
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" 78
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 79
-"../../Plugins/2D/Paper2D/Content/TranslucentUnlitSpriteMaterial.uasset" 80
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982.uasset" 81
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_0.uasset" 82
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_1.uasset" 83
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_2.uasset" 84
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie01.uasset" 85
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_3.uasset" 86
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_4.uasset" 87
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_5.uasset" 88
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie02.uasset" 89
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_6.uasset" 90
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_7.uasset" 91
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_8.uasset" 92
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie03.uasset" 93
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyDefault.uasset" 94
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyNormalNew.uasset" 95
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_Pawn.uasset" 96
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Themes/BP_ThemeData.uasset" 97
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Themes/BP_Theme_Default.uasset" 98
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_MenuItem.uasset" 99
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_SimpleParticleColorPlayfieldMasked.uasset" 100
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/T_Spark_Core.uasset" 101
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_BombFuse.uasset" 102
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Cloud.uasset" 103
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Clouds.uasset" 104
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/RadialBurst.uasset" 105
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Target.uasset" 106
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Bomb.uasset" 107
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Bomb_Fuse.uasset" 108
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Star.uasset" 109
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/MAT_Star.uasset" 110
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Explosion.uasset" 111
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/MAT_Ribbon.uasset" 112
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_RibbonParticle.uasset" 113
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Selected_Title.uasset" 114
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_Unlit.uasset" 115
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/RockCrumble.uasset" 116
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Rock_Crumble.uasset" 117
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Stone_Shatter.uasset" 118
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/PlaceholderTextures/DummySpriteTexture.uasset" 119
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Buttons.uasset" 120
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_01.uasset" 121
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A1.uasset" 122
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A1_Sprite.uasset" 123
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A2.uasset" 124
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A2_Sprite.uasset" 125
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A3.uasset" 126
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A3_Sprite.uasset" 127
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A4.uasset" 128
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A4_Sprite.uasset" 129
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982.uasset" 130
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_0.uasset" 131
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_1.uasset" 132
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_2.uasset" 133
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie01.uasset" 134
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_3.uasset" 135
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_4.uasset" 136
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_5.uasset" 137
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie02.uasset" 138
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_6.uasset" 139
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_7.uasset" 140
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_8.uasset" 141
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie03.uasset" 142
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_10.uasset" 143
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_11.uasset" 144
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_9.uasset" 145
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie04.uasset" 146
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_57.uasset" 147
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_58.uasset" 148
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_59.uasset" 149
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie05.uasset" 150
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/LayoutPlan.uasset" 151
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Projectile.uasset" 152
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Projectile_Sprite.uasset" 153
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_TileSet.uasset" 154
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/BTN_BLUE_CIRCLE_OUT.uasset" 155
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/ButtonGreenCircle.uasset" 156
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/ButtonRedCircle.uasset" 157
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/MenuBackgroundTexture.uasset" 158
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SymbolCheck.uasset" 159
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SymbolLargeX.uasset" 160
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SymbolRestart.uasset" 161
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/UILock.uasset" 162
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/UILockOpen.uasset" 163
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolAchievements.uasset" 164
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolDocumentation.uasset" 165
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolMenu.uasset" 166
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolRateUs.uasset" 167
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/Symbol_Locked.uasset" 168
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_10.uasset" 169
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_11.uasset" 170
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_9.uasset" 171
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie04.uasset" 172
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_57.uasset" 173
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_58.uasset" 174
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_59.uasset" 175
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie05.uasset" 176
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_TileSet.uasset" 177
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Buttons.uasset" 178
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_01.uasset" 179
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/textures-pixel-heart-1_600x.uasset" 180
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/textures-pixel-heart-1_600x_Sprite.uasset" 181
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/SphereGradient-2D.uasset" 182
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ComputeMipLevel.uasset" 183
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 184
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping.uasset" 185
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.uasset" 186
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.uasset" 187
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Gradients/GradientMap_Multi.uasset" 188
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/TimeWithSpeedVariable.uasset" 189
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/PassThrough.uasset" 190
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 191
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 192
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.uasset" 193
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset" 194
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugScalarValues.uasset" 195
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat3Values.uasset" 196
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat4Values.uasset" 197
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 198
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Normals/UnpackNormalFromFloat.uasset" 199
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.uasset" 200
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox_Normals.uasset" 201
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/MAXScripts/MS_VertexAnimationTools_MorphTargets.uasset" 202
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.uasset" 203
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 204
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA.uasset" 205
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sine_Remapped.uasset" 206
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Mat_Functions/Luos_EasyRotate.uasset" 207
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Mat_Functions/Luos_Mask_Distorter.uasset" 208
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Mat_Functions/Luos_TimeSine.uasset" 209
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/Gradients/T_ColorIndex.uasset" 210
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/MergedNoise/T_BubblePop_01.uasset" 211
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/NoiseNormals/T_NoiseNormal_14.uasset" 212
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/VertAnim/VA_Bubblepop_01.uasset" 213
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/VertAnim/VA_Bubblepop_01_Normals.uasset" 214
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/356Days/M_BubbleBall_01.uasset" 215
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/Gradients/T_4E_Light_Rainbow_01.uasset" 216
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/NoiseNormals/T_NoiseNormal_21.uasset" 217
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/356Days/M_BubblePool_01.uasset" 218
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/356Days/M_invisible.uasset" 219
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset" 220
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.uasset" 221
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/MergedNoise/T_BubblePop_02.uasset" 222
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/NoiseNormals/T_NoiseNormal_3.uasset" 223
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/356Days/M_bubbleBeam_01.uasset" 224
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/MatInstances/356Days/MI_bubbleBeam_01.uasset" 225
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/ParticleSystems/356Days/Par_BubblePop_01.uasset" 226
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/Sprites/FX_RadialStreaks2.uasset" 227
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/Generic/M_FX_Flare_01.uasset" 228
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/Gradients/T_LaserBeam_Gradient.uasset" 229
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/Generic/M_FX_Trails_01.uasset" 230
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/ParticleSystems/356Days/Par_MissileTrails.uasset" 231
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 232
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 233
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 234
-"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 235
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/StaticMeshes/Rings/SM_BubblePool_01.uasset" 236
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/StaticMeshes/Spheres/SM_BubblePop_01.uasset" 237
-"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 238
-"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 239
-"../../../Engine/Content/BasicShapes/Cone.uasset" 240
-"../../../Engine/Content/BasicShapes/Cube.uasset" 241
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 242
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 243
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 244
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 245
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 246
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 247
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 248
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 249
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 250
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 251
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 252
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 253
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 254
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 255
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 256
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 257
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 258
-"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 259
-"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 260
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 261
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 262
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 263
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 264
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 265
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 266
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 267
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 268
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 269
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 270
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 271
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 272
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 273
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 274
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 275
-"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 276
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 277
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 278
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 279
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 280
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 281
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 282
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 283
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 284
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 285
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 286
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 287
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 288
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 289
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 290
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 291
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 292
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 293
-"../../../Engine/Content/EngineResources/Black.uasset" 294
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 295
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 296
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 297
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 298
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 299
-"../../../Engine/Content/EngineSounds/Master.uasset" 300
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 301
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 302
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 303
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 304
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 305
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 306
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 307
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 308
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 309
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 310
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 311
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 312
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 313
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 314
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 315
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 316
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 317
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 318
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 319
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 320
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 321
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 322
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 323
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 324
-"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 325
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 326
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 327
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 328
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 329
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_Credits.uasset" 330
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_Leaderboard.uasset" 331
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Background_A_day.uasset" 332
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolCredits.uasset" 333
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolLeaderboards.uasset" 334
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_MainMenu.uasset" 335
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/MainMenu.umap" 336
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/BP_SequenceController.uasset" 337
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/BP_SequenceHUD.uasset" 338
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/BP_SequencePawn.uasset" 339
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/BP_SequenceGameMode.uasset" 340
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_SwitcherBox.uasset" 341
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" 342
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Game_BG.uasset" 343
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/MAT_BG.uasset" 344
-"../../../Engine/Content/BasicShapes/Plane.uasset" 345
-"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap" 346
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 347
-"../../../Engine/Content/Maps/Entry.umap" 348
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 0
+"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 1
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/DefaultSpriteMaterial.uasset" 2
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/DummySpriteTexture.uasset" 3
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 4
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/TranslucentUnlitSpriteMaterial.uasset" 5
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/goldCoin1.uasset" 6
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Sprites/goldCoin1_Sprite.uasset" 7
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/goldCoin2.uasset" 8
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Sprites/goldCoin2_Sprite.uasset" 9
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/goldCoin3.uasset" 10
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Sprites/goldCoin3_Sprite.uasset" 11
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/goldCoin4.uasset" 12
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Sprites/goldCoin4_Sprite.uasset" 13
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/goldCoin5.uasset" 14
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Sprites/goldCoin5_Sprite.uasset" 15
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/goldCoin6.uasset" 16
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Sprites/goldCoin6_Sprite.uasset" 17
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/goldCoin7.uasset" 18
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Sprites/goldCoin7_Sprite.uasset" 19
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/goldCoin8.uasset" 20
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Sprites/goldCoin8_Sprite.uasset" 21
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/goldCoin9.uasset" 22
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Sprites/goldCoin9_Sprite.uasset" 23
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Collectables/Flipbooks/anim_goldCoin.uasset" 24
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/slime_spritesheet_calciumtrice_0.uasset" 25
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_1.uasset" 26
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_10.uasset" 27
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_2.uasset" 28
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_3.uasset" 29
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_4.uasset" 30
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_5.uasset" 31
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_6.uasset" 32
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_7.uasset" 33
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_8.uasset" 34
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_hit_9.uasset" 35
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Flipbooks/enemy_hit2.uasset" 36
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Textures/dwarves.uasset" 37
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_100.uasset" 38
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_101.uasset" 39
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_102.uasset" 40
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_103.uasset" 41
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_104.uasset" 42
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_105.uasset" 43
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_106.uasset" 44
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_107.uasset" 45
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_108.uasset" 46
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_109.uasset" 47
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_11.uasset" 48
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_110.uasset" 49
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_111.uasset" 50
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_112.uasset" 51
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_113.uasset" 52
+"../../Plugins/2D/Paper2D/Content/TranslucentUnlitSpriteMaterial.uasset" 53
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_114.uasset" 54
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_115.uasset" 55
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_116.uasset" 56
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_117.uasset" 57
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_118.uasset" 58
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_119.uasset" 59
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_12.uasset" 60
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_120.uasset" 61
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_121.uasset" 62
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_122.uasset" 63
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_123.uasset" 64
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_124.uasset" 65
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_125.uasset" 66
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_126.uasset" 67
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_127.uasset" 68
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_128.uasset" 69
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_129.uasset" 70
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_13.uasset" 71
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_130.uasset" 72
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_131.uasset" 73
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_132.uasset" 74
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_133.uasset" 75
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_134.uasset" 76
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_135.uasset" 77
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_136.uasset" 78
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_137.uasset" 79
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_138.uasset" 80
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_139.uasset" 81
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_14.uasset" 82
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_140.uasset" 83
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_141.uasset" 84
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_142.uasset" 85
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_143.uasset" 86
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_144.uasset" 87
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_145.uasset" 88
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_146.uasset" 89
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_147.uasset" 90
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_148.uasset" 91
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_149.uasset" 92
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_15.uasset" 93
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_150.uasset" 94
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_151.uasset" 95
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_152.uasset" 96
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_153.uasset" 97
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_154.uasset" 98
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_155.uasset" 99
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_156.uasset" 100
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_157.uasset" 101
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_158.uasset" 102
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_159.uasset" 103
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_16.uasset" 104
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_160.uasset" 105
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_161.uasset" 106
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_162.uasset" 107
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_163.uasset" 108
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_164.uasset" 109
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_165.uasset" 110
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_166.uasset" 111
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_167.uasset" 112
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_168.uasset" 113
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_169.uasset" 114
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_17.uasset" 115
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_170.uasset" 116
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_171.uasset" 117
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_172.uasset" 118
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_173.uasset" 119
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_174.uasset" 120
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_175.uasset" 121
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_176.uasset" 122
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_177.uasset" 123
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_178.uasset" 124
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_179.uasset" 125
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_18.uasset" 126
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_180.uasset" 127
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_181.uasset" 128
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_182.uasset" 129
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_183.uasset" 130
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_184.uasset" 131
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_185.uasset" 132
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_186.uasset" 133
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_187.uasset" 134
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_188.uasset" 135
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_189.uasset" 136
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_19.uasset" 137
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_190.uasset" 138
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_191.uasset" 139
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_192.uasset" 140
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_193.uasset" 141
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_194.uasset" 142
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_195.uasset" 143
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_196.uasset" 144
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_197.uasset" 145
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_198.uasset" 146
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_199.uasset" 147
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_20.uasset" 148
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_200.uasset" 149
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_201.uasset" 150
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_202.uasset" 151
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_203.uasset" 152
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_204.uasset" 153
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_205.uasset" 154
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_206.uasset" 155
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_207.uasset" 156
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_208.uasset" 157
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_209.uasset" 158
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_21.uasset" 159
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_210.uasset" 160
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_211.uasset" 161
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_212.uasset" 162
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_213.uasset" 163
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_214.uasset" 164
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_215.uasset" 165
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_216.uasset" 166
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_217.uasset" 167
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_218.uasset" 168
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_219.uasset" 169
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_22.uasset" 170
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_220.uasset" 171
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_221.uasset" 172
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_222.uasset" 173
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_223.uasset" 174
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_224.uasset" 175
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_225.uasset" 176
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_226.uasset" 177
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_227.uasset" 178
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_228.uasset" 179
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_229.uasset" 180
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_23.uasset" 181
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_230.uasset" 182
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_231.uasset" 183
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_232.uasset" 184
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_233.uasset" 185
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_234.uasset" 186
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_235.uasset" 187
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_236.uasset" 188
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_237.uasset" 189
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_238.uasset" 190
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_239.uasset" 191
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_24.uasset" 192
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_240.uasset" 193
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_25.uasset" 194
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_26.uasset" 195
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_27.uasset" 196
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_28.uasset" 197
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_29.uasset" 198
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_30.uasset" 199
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_31.uasset" 200
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_32.uasset" 201
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_33.uasset" 202
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_34.uasset" 203
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_35.uasset" 204
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_36.uasset" 205
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_37.uasset" 206
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_38.uasset" 207
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_39.uasset" 208
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_40.uasset" 209
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_41.uasset" 210
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_42.uasset" 211
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_43.uasset" 212
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_44.uasset" 213
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_45.uasset" 214
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_46.uasset" 215
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_47.uasset" 216
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_48.uasset" 217
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_49.uasset" 218
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_50.uasset" 219
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_51.uasset" 220
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_52.uasset" 221
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_53.uasset" 222
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_54.uasset" 223
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_55.uasset" 224
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_56.uasset" 225
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_57.uasset" 226
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_58.uasset" 227
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_59.uasset" 228
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_60.uasset" 229
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_61.uasset" 230
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_62.uasset" 231
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_63.uasset" 232
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_64.uasset" 233
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_65.uasset" 234
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_66.uasset" 235
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_67.uasset" 236
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_68.uasset" 237
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_69.uasset" 238
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_70.uasset" 239
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_71.uasset" 240
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_72.uasset" 241
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_73.uasset" 242
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_74.uasset" 243
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_75.uasset" 244
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_76.uasset" 245
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_77.uasset" 246
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_78.uasset" 247
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_79.uasset" 248
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_80.uasset" 249
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_81.uasset" 250
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_82.uasset" 251
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_83.uasset" 252
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_84.uasset" 253
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_85.uasset" 254
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_86.uasset" 255
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_87.uasset" 256
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_88.uasset" 257
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_89.uasset" 258
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_90.uasset" 259
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_91.uasset" 260
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_92.uasset" 261
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_93.uasset" 262
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_94.uasset" 263
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_95.uasset" 264
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_96.uasset" 265
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_97.uasset" 266
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_98.uasset" 267
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_99.uasset" 268
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_1.uasset" 269
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_2.uasset" 270
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_3.uasset" 271
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_4.uasset" 272
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/idle.uasset" 273
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_10.uasset" 274
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_5.uasset" 275
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_6.uasset" 276
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_7.uasset" 277
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_8.uasset" 278
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/dwarves_Sprite_9.uasset" 279
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Extra/walk.uasset" 280
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 281
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_AIController.uasset" 282
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/Enum_SequenceItem.uasset" 283
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A1_S.uasset" 284
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A1_S_Sprite.uasset" 285
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A2_S.uasset" 286
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A2_S_Sprite.uasset" 287
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A3_S.uasset" 288
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A3_S_Sprite.uasset" 289
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A4_S.uasset" 290
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A4_S_Sprite.uasset" 291
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A1.uasset" 292
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A1_Sprite.uasset" 293
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A2.uasset" 294
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A2_Sprite.uasset" 295
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A3.uasset" 296
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A3_Sprite.uasset" 297
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A4.uasset" 298
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_A4_Sprite.uasset" 299
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBoss.uasset" 300
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyNormal.uasset" 301
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/SpriteTranslucent.uasset" 302
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_idle_1.uasset" 303
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_idle_2.uasset" 304
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_idle_3.uasset" 305
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_idle_4.uasset" 306
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_idle_5.uasset" 307
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_idle_6.uasset" 308
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_idle_7.uasset" 309
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_idle_8.uasset" 310
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Sprites/enemy_idle_9.uasset" 311
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/2DPlatformingKit/Sprites/Enemies/Flipbooks/Enemy_idle.uasset" 312
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemySmall.uasset" 313
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/white_8x8.uasset" 314
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_SimpleParticle.uasset" 315
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Bits.uasset" 316
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/flare.uasset" 317
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Flare.uasset" 318
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_SubUVParticle.uasset" 319
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Shatter.uasset" 320
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Shards.uasset" 321
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Gem_Shatter.uasset" 322
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 323
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/ParameterCollection.uasset" 324
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_SimpleParticleColor.uasset" 325
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/T_Torch_Flames.uasset" 326
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Torch_Flames.uasset" 327
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_TorchFlames.uasset" 328
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_ParticleShot.uasset" 329
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_Saver.uasset" 330
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Fonts/AveriaSerif-Regular_0_Default.uasset" 331
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Fonts/AveriaSerif-Regular.uasset" 332
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/ButtonWoodBlock.uasset" 333
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/Symbol_Arrow.uasset" 334
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolReplay.uasset" 335
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/T_Parchment_Corners.uasset" 336
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameOver.uasset" 337
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_Buttons.uasset" 338
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 339
+"../../../Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/CheckerPattern.uasset" 340
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 341
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 342
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset" 343
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Swizzle.uasset" 344
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 345
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_SMin.uasset" 346
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_SMin2.uasset" 347
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_SmoothStepWidth.uasset" 348
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_Translcent.uasset" 349
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Functins/MF_TriangleWave.uasset" 350
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Textures/Gloss/T_Gloss_Light.uasset" 351
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/MF_Layers.uasset" 352
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Textures/Patterns/T_PatternHeart.uasset" 353
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/MF_Rect.uasset" 354
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/M_UmgRectBar.uasset" 355
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/MI_UmgRectBar.uasset" 356
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternHearts.uasset" 357
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_Hearts.uasset" 358
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SettingsCheckboxOff.uasset" 359
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SettingsCheckboxOn.uasset" 360
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_MenuItem.uasset" 361
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/T_Parchment_Corners_Mat.uasset" 362
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/Button_Cancel.uasset" 363
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/Symbole_Check.uasset" 364
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_ConfirmationScreen.uasset" 365
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_MainSettings.uasset" 366
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolSettings.uasset" 367
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/HurtVingette.uasset" 368
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_GameWindow.uasset" 369
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_GameLogic.uasset" 370
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982.uasset" 371
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_0.uasset" 372
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_1.uasset" 373
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_2.uasset" 374
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie01.uasset" 375
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_3.uasset" 376
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_4.uasset" 377
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_5.uasset" 378
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie02.uasset" 379
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_6.uasset" 380
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_7.uasset" 381
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_8.uasset" 382
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie03.uasset" 383
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyDefault.uasset" 384
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyMedium.uasset" 385
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyBase.uasset" 386
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Enemies/BP_EnemyNormalNew.uasset" 387
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_Pawn.uasset" 388
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Themes/BP_ThemeData.uasset" 389
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Themes/BP_Theme_Custom.uasset" 390
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Themes/BP_Theme_Default.uasset" 391
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Themes/BP_Theme_Magic.uasset" 392
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Themes/BP_Theme_Pirates.uasset" 393
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Themes/BP_Theme_Zombies.uasset" 394
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/UILockOpen.uasset" 395
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_StoreMenuItem.uasset" 396
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_SimpleParticleColorPlayfieldMasked.uasset" 397
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/T_Spark_Core.uasset" 398
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_BombFuse.uasset" 399
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Cloud.uasset" 400
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Clouds.uasset" 401
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/RadialBurst.uasset" 402
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Particle_Target.uasset" 403
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Bomb.uasset" 404
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Bomb_Fuse.uasset" 405
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Star.uasset" 406
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/MAT_Star.uasset" 407
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Explosion.uasset" 408
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/MAT_Ribbon.uasset" 409
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_RibbonParticle.uasset" 410
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Selected_Title.uasset" 411
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/_Master_Unlit.uasset" 412
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/RockCrumble.uasset" 413
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/Rock_Crumble.uasset" 414
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Particles/P_Stone_Shatter.uasset" 415
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/PlaceholderTextures/DummySpriteTexture.uasset" 416
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/Alan_McKinney_-_unknown_album_-_00_-_unknown_title.uasset" 417
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/Click_1.uasset" 418
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/Click_2.uasset" 419
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/Click_3.uasset" 420
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/Click_4.uasset" 421
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_drips_stereo_ascend_x4_17841.uasset" 422
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_impact_thud_wobble_26699.uasset" 423
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_impact_twang_001_24023.uasset" 424
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_impact_twang_003_24025.uasset" 425
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_musical_descend_18064.uasset" 426
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_squeeze_pull_body_part_out_of_hole_pop_out_20002.uasset" 427
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_twang_spring_wooden_ruler_002_21162.uasset" 428
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_voice_high_pitched_pain_grunt_003_15785.uasset" 429
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_voice_high_pitched_pain_grunt_004_15786.uasset" 430
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_voice_high_pitched_pain_grunt_005_15787.uasset" 431
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_voice_high_pitched_says_painful_ooww_15795.uasset" 432
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_cartoon_wood_knock_single_17786.uasset" 433
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/zapsplat_musical_drum_roll_ta_da_24691.uasset" 434
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/Music/music_zapsplat_deep_investigation_126.uasset" 435
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/Music/music_zapsplat_on_the_up_120.uasset" 436
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/Music/zapsplat_cartoon_marching_military_band_brass_melody_18127.uasset" 437
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/SFX/Music/zapsplat_cartoon_walking_care_free_happy_musical_002_18140.uasset" 438
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Buttons.uasset" 439
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_01.uasset" 440
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A1.uasset" 441
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A1_Sprite.uasset" 442
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A2.uasset" 443
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A2_Sprite.uasset" 444
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A3.uasset" 445
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A3_Sprite.uasset" 446
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A4.uasset" 447
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Button_A4_Sprite.uasset" 448
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982.uasset" 449
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_0.uasset" 450
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_1.uasset" 451
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_2.uasset" 452
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie01.uasset" 453
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_3.uasset" 454
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_4.uasset" 455
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_5.uasset" 456
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie02.uasset" 457
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_6.uasset" 458
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_7.uasset" 459
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_8.uasset" 460
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie03.uasset" 461
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_10.uasset" 462
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_11.uasset" 463
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_9.uasset" 464
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie04.uasset" 465
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_57.uasset" 466
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_58.uasset" 467
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_Sprite_59.uasset" 468
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/FB_Zombie05.uasset" 469
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Game_BG.uasset" 470
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Materials/MAT_BG.uasset" 471
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Game_BG_Mat.uasset" 472
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/LayoutPlan.uasset" 473
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Projectile.uasset" 474
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Projectile_Sprite.uasset" 475
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/TombZombies_zps8f8e5982_TileSet.uasset" 476
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/BTN_BLUE_CIRCLE_OUT.uasset" 477
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/ButtonGreenCircle.uasset" 478
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/ButtonRedCircle.uasset" 479
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/MenuBackgroundTexture.uasset" 480
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SymbolCheck.uasset" 481
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SymbolLargeX.uasset" 482
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/SymbolRestart.uasset" 483
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/UILock.uasset" 484
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolAchievements.uasset" 485
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolDocumentation.uasset" 486
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolMenu.uasset" 487
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolRateUs.uasset" 488
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/Symbol_Locked.uasset" 489
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_10.uasset" 490
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_11.uasset" 491
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_9.uasset" 492
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie04.uasset" 493
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_57.uasset" 494
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_58.uasset" 495
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_Sprite_59.uasset" 496
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/FB_Zombie05.uasset" 497
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Monsters/TombZombies_zps8f8e5982_TileSet.uasset" 498
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Buttons.uasset" 499
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/Button_01.uasset" 500
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/textures-pixel-heart-1_600x.uasset" 501
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/UI/textures-pixel-heart-1_600x_Sprite.uasset" 502
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/SphereGradient-2D.uasset" 503
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ComputeMipLevel.uasset" 504
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 505
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping.uasset" 506
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.uasset" 507
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.uasset" 508
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Gradients/GradientMap_Multi.uasset" 509
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/TimeWithSpeedVariable.uasset" 510
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/PassThrough.uasset" 511
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 512
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 513
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.uasset" 514
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset" 515
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugScalarValues.uasset" 516
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat3Values.uasset" 517
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat4Values.uasset" 518
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 519
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Normals/UnpackNormalFromFloat.uasset" 520
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.uasset" 521
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox_Normals.uasset" 522
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/MAXScripts/MS_VertexAnimationTools_MorphTargets.uasset" 523
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.uasset" 524
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 525
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA.uasset" 526
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sine_Remapped.uasset" 527
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Mat_Functions/Luos_EasyRotate.uasset" 528
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Mat_Functions/Luos_Mask_Distorter.uasset" 529
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Mat_Functions/Luos_TimeSine.uasset" 530
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/Gradients/T_ColorIndex.uasset" 531
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/MergedNoise/T_BubblePop_01.uasset" 532
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/NoiseNormals/T_NoiseNormal_14.uasset" 533
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/VertAnim/VA_Bubblepop_01.uasset" 534
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/VertAnim/VA_Bubblepop_01_Normals.uasset" 535
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/356Days/M_BubbleBall_01.uasset" 536
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/Gradients/T_4E_Light_Rainbow_01.uasset" 537
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/NoiseNormals/T_NoiseNormal_21.uasset" 538
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/356Days/M_BubblePool_01.uasset" 539
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/356Days/M_invisible.uasset" 540
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset" 541
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.uasset" 542
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/MergedNoise/T_BubblePop_02.uasset" 543
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/NoiseNormals/T_NoiseNormal_3.uasset" 544
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/356Days/M_bubbleBeam_01.uasset" 545
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/MatInstances/356Days/MI_bubbleBeam_01.uasset" 546
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/ParticleSystems/356Days/Par_BubblePop_01.uasset" 547
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/Sprites/FX_RadialStreaks2.uasset" 548
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/Generic/M_FX_Flare_01.uasset" 549
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Textures/Gradients/T_LaserBeam_Gradient.uasset" 550
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/Materials/Generic/M_FX_Trails_01.uasset" 551
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/ParticleSystems/356Days/Par_MissileTrails.uasset" 552
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 553
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 554
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 555
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 556
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/StaticMeshes/Rings/SM_BubblePool_01.uasset" 557
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/VFX_Toolkit_V1/StaticMeshes/Spheres/SM_BubblePop_01.uasset" 558
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 559
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 560
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 561
+"../../../Engine/Content/BasicShapes/Cone.uasset" 562
+"../../../Engine/Content/BasicShapes/Cube.uasset" 563
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 564
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 565
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 566
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 567
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 568
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 569
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 570
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 571
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 572
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 573
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 574
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 575
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 576
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 577
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 578
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 579
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 580
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 581
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 582
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 583
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 584
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 585
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 586
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 587
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 588
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 589
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 590
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 591
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 592
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 593
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 594
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 595
+"../../../Engine/Content/EditorResources/S_Note.uasset" 596
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 597
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 598
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 599
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 600
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 601
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 602
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 603
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 604
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 605
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 606
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 607
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 608
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 609
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 610
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 611
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 612
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 613
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 614
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 615
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 616
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 617
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 618
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 619
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 620
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 621
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 622
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 623
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 624
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 625
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 626
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 627
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 628
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 629
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 630
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 631
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 632
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 633
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 634
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 635
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 636
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 637
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 638
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 639
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 640
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 641
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 642
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 643
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 644
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 645
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 646
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 647
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 648
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 649
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 650
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 651
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 652
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 653
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 654
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 655
+"../../../Engine/Content/EngineResources/Black.uasset" 656
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 657
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 658
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 659
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 660
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 661
+"../../../Engine/Content/EngineSounds/Master.uasset" 662
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 663
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 664
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 665
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 666
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 667
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 668
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 669
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 670
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 671
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 672
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 673
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 674
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 675
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 676
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 677
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 678
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 679
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 680
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 681
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 682
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 683
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 684
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 685
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 686
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 687
+"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 688
+"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 689
+"../../../Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset" 690
+"../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset" 691
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 692
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 693
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 694
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 695
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 696
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 697
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 698
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 699
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 700
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 701
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 702
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 703
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 704
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 705
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_Credits.uasset" 706
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_Leaderboard.uasset" 707
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_StoreMain.uasset" 708
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/Background_A_day.uasset" 709
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolCredits.uasset" 710
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Textures/GUI/Test/SymbolLeaderboards.uasset" 711
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Widgets/BPW_MainMenu.uasset" 712
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/MainMenu.umap" 713
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/BP_SequenceController.uasset" 714
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/BP_SequenceHUD.uasset" 715
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/BP_SequencePawn.uasset" 716
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/BP_SequenceGameMode.uasset" 717
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Blueprints/Logic/BP_SwitcherBox.uasset" 718
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01_BuiltData.uasset" 719
+"../../../Engine/Content/BasicShapes/Plane.uasset" 720
+"C:/Users/drago/Documents/Unreal Projects/SimonOfTheDead/Content/Levels/TestMap_01.umap" 721
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 722
+"../../../Engine/Content/Maps/Entry.umap" 723
